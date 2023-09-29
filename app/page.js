@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="min-h-screen p-24">
       <h1>Bari Abbassi</h1>
-      <p>Product-Minnded full stack engineer</p>
+      <p>Product-minded full stack engineer</p>
     </main>
   );
 }
