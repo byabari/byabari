@@ -1,10 +1,11 @@
-import Image from "next/image";
-
-export default function Home() {
+export default function HomePage() {
   return (
-    <main className="min-h-screen p-24">
-      <h1>Bari Abbassi</h1>
-      <p>Product-minded full stack engineer</p>
-    </main>
+    <div className="h-[60vh] flex flex-col justify-center">
+      <h1 className="text-4xl font-bold mb-5">Hi, I'm Bari Abbassi</h1>
+      <h2 className="text-2xl font-bold mb-4">
+        I'm a product-minded Full Stack Engineer
+      </h2>
+      <p>I enjoy building web apps from design to backend.</p>
+    </div>
   );
 }
