@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function About() {
   return (
     <>
-      <h1 className="text-4xl font-bold mt-36 mb-8">About</h1>
-      <div className="text-lg space-y-5 mb-12">
+      <h1 className="text-4xl font-bold mt-24 mb-8">About</h1>
+      <div className="space-y-5 mb-12">
         <p>
           My name is Bari Abbassi. I'm a product-minded Full Stack Engineer.
         </p>
