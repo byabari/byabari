@@ -13,23 +13,23 @@ const Experience = ({
     <div className="flex space-x-4">
       <div className="w-1/2">
         <a href={companyWebsite} target="_blank">
-          <h3 className="text-2xl font-semibold hover:underline underline-offset-4 mb-2">
+          <h3 className="text-xl sm:text-2xl font-semibold hover:underline underline-offset-4 mb-2">
             {companyName}
           </h3>
         </a>
         <p className="text-sm">{jobDescription}</p>
       </div>
-      <div>
-        <div className="text-xs mt-2 mb-4">
+      <div className="w-1/2">
+        <div className="text-xs m-2">
           {jobTitle}
           <span className="font-light">
             {" "}
             • {startDate} - {endDate}
           </span>
         </div>
-        <div className="flex space-x-2">
+        <div className="flex flex-wrap space-x-1 sm:space-x-2">
           {technologies.map((technology) => (
-            <div className="text-sm font-medium border rounded-xl px-3 py-1.5">
+            <div className="text-xs sm:text-sm font-medium border rounded-xl px-2 sm:px-3 py-1.5 mt-2">
               {technology}
             </div>
           ))}
