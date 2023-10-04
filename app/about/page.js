@@ -3,9 +3,8 @@ import Image from "next/image";
 export default function About() {
   return (
     <>
-      <h1 className="text-4xl font-bold mt-36 mb-12">About</h1>
-      <Image />
-      <div className="text-lg space-y-6">
+      <h1 className="text-4xl font-bold mt-36 mb-8">About</h1>
+      <div className="text-lg space-y-5 mb-12">
         <p>
           My name is Bari Abbassi. I'm a product-minded Full Stack Engineer.
         </p>
@@ -26,9 +25,11 @@ export default function About() {
           physical activity. I used to do a lot of races a few years back.
         </p>
         <p>
-          You can contact me at<a href="mailto:bari@abbas.si">bari@abbas.si</a>
+          You can contact me at:{" "}
+          <a href="mailto:bari@abbas.si">bari@abbas.si</a>
         </p>
       </div>
+      <Image src="/bari_abbassi.jpg" width={400} height={400} />
     </>
   );
 }
