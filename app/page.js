@@ -10,7 +10,16 @@ export default function HomePage() {
         <h2 className="text-xl sm:text-2xl font-bold mb-4">
           I'm a product-minded Full Stack Engineer
         </h2>
-        <p>I enjoy building web apps from design to backend.</p>
+        <p>
+          I enjoy building web apps from design to backend. My latest product is{" "}
+          <a
+            className="underline underline-offset-4"
+            href="https://linkfolders.com"
+            target="_blank"
+          >
+            linkfolders.com
+          </a>
+        </p>
       </div>
       <Resume />
     </>

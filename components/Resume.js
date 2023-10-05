@@ -51,7 +51,7 @@ export default function Resume() {
           jobTitle="Full Stack Engineer"
           startDate="Nov 2021"
           endDate="Present"
-          technologies={["React", "Next.js", "TypeScript"]}
+          technologies={["React", "Next.js", "Firebase"]}
         />
         <Experience
           companyName="Hubs"
@@ -60,7 +60,7 @@ export default function Resume() {
           jobTitle="Full Stack Engineer"
           startDate="Sep 2020"
           endDate="Mar 2021"
-          technologies={["TypeScript", "Angular", "PostgreSQL"]}
+          technologies={["Angular", "PostgreSQL", "Python"]}
         />
         <Experience
           companyName="Ownest"
