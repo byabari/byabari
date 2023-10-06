@@ -30,7 +30,7 @@ const Experience = ({
         <p className="text-sm">{jobDescription}</p>
       </div>
       <div className="w-1/2">
-        <div className="text-xs my-2">
+        <div className="text-xs mt-1 mb-2">
           {jobTitle}
           <span className="font-light">
             {" "}
