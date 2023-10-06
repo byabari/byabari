@@ -1,8 +1,8 @@
 export const Technologies = ({ technologies }) => {
   return (
-    <div className="flex flex-wrap gap-x-1 sm:gap-x-2">
+    <div className="flex flex-wrap gap-x-1 sm:gap-x-2 gap-y-2">
       {technologies.map((technology) => (
-        <div className="text-xs font-medium border rounded-xl px-2 py-1.5 mt-2">
+        <div className="text-xs font-medium border rounded-xl px-2 py-1.5">
           {technology}
         </div>
       ))}
@@ -20,24 +20,32 @@ const Experience = ({
   technologies,
 }) => {
   return (
-    <div className="flex space-x-4 sm:space-x-5">
-      <div className="w-1/2">
-        <a href={companyWebsite} target="_blank">
-          <h3 className="text-xl sm:text-2xl font-semibold hover:underline underline-offset-4 mb-2">
-            {companyName}
-          </h3>
-        </a>
-        <p className="text-sm">{jobDescription}</p>
-      </div>
-      <div className="w-1/2">
-        <div className="text-xs mt-1 mb-2">
-          {jobTitle}
-          <span className="font-light">
-            {" "}
-            • {startDate} - {endDate}
-          </span>
+    <div>
+      <div className="flex items-center gap-x-4 sm:gap-x-5 mb-2">
+        <div className="w-1/2">
+          <a href={companyWebsite} target="_blank">
+            <h3 className="text-xl sm:text-2xl font-semibold hover:underline underline-offset-4">
+              {companyName}
+            </h3>
+          </a>
         </div>
-        <Technologies technologies={technologies} />
+        <div className="w-1/2">
+          <div className="text-xs">
+            {jobTitle}
+            <span className="font-light">
+              {" "}
+              • {startDate} - {endDate}
+            </span>
+          </div>
+        </div>
+      </div>
+      <div className="flex gap-x-4 sm:gap-x-5">
+        <div className="w-1/2">
+          <p className="text-sm">{jobDescription}</p>
+        </div>
+        <div className="w-1/2">
+          <Technologies technologies={technologies} />
+        </div>
       </div>
     </div>
   );

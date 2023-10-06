@@ -10,7 +10,7 @@ export default function HomePage() {
         <h2 className="text-xl sm:text-2xl font-bold mb-4">
           I'm a product-minded Full Stack Engineer
         </h2>
-        <p className="mb-3">
+        <p className="mb-4">
           I enjoy building web apps from design to backend. My latest product is{" "}
           <a
             className="underline underline-offset-4"
