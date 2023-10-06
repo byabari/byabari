@@ -1,4 +1,14 @@
-import NextLink from "next/link";
+export const Technologies = ({ technologies }) => {
+  return (
+    <div className="flex flex-wrap gap-x-1 sm:gap-x-2">
+      {technologies.map((technology) => (
+        <div className="text-xs font-medium border rounded-xl px-2 py-1.5 mt-2">
+          {technology}
+        </div>
+      ))}
+    </div>
+  );
+};
 
 const Experience = ({
   companyName,
@@ -20,24 +30,19 @@ const Experience = ({
         <p className="text-sm">{jobDescription}</p>
       </div>
       <div className="w-1/2">
-        <div className="text-xs m-2">
+        <div className="text-xs my-2">
           {jobTitle}
           <span className="font-light">
             {" "}
             • {startDate} - {endDate}
           </span>
         </div>
-        <div className="flex flex-wrap space-x-1 sm:space-x-2">
-          {technologies.map((technology) => (
-            <div className="text-xs sm:text-sm font-medium border rounded-xl px-2 sm:px-3 py-1.5 mt-2">
-              {technology}
-            </div>
-          ))}
-        </div>
+        <Technologies technologies={technologies} />
       </div>
     </div>
   );
 };
+
 export default function Resume() {
   return (
     <>
@@ -51,7 +56,7 @@ export default function Resume() {
           jobTitle="Full Stack Engineer"
           startDate="Nov 2021"
           endDate="Present"
-          technologies={["React", "Next.js", "Firebase"]}
+          technologies={["React", "Next.js", "TypeScript"]}
         />
         <Experience
           companyName="Hubs"
@@ -60,7 +65,7 @@ export default function Resume() {
           jobTitle="Full Stack Engineer"
           startDate="Sep 2020"
           endDate="Mar 2021"
-          technologies={["Angular", "PostgreSQL", "Python"]}
+          technologies={["Angular", "TypeScript", "PostgreSQL"]}
         />
         <Experience
           companyName="Ownest"

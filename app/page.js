@@ -1,4 +1,4 @@
-import Resume from "@/components/Resume";
+import Resume, { Technologies } from "@/components/Resume";
 
 export default function HomePage() {
   return (
@@ -10,7 +10,7 @@ export default function HomePage() {
         <h2 className="text-xl sm:text-2xl font-bold mb-4">
           I'm a product-minded Full Stack Engineer
         </h2>
-        <p>
+        <p className="mb-3">
           I enjoy building web apps from design to backend. My latest product is{" "}
           <a
             className="underline underline-offset-4"
@@ -19,7 +19,9 @@ export default function HomePage() {
           >
             linkfolders.com
           </a>
+          . My favorite tools are
         </p>
+        <Technologies technologies={["React", "Next.js"]} />
       </div>
       <Resume />
     </>
