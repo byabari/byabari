@@ -9,7 +9,6 @@ export default function Navbar() {
           <Link href="/about">About</Link>
         </div>
       </div>
-      <p>bari@abbas.si</p>
     </nav>
   );
 }
