@@ -70,16 +70,16 @@ export default function RootLayout({ children }) {
                   src: "/github.svg",
                 },
               ].map((link) => (
-                <Link href={link.href} target="_blank">
+                <a href={link.href} target="_blank">
                   <Image
                     src={link.src}
                     alt={`${link.text} logo`}
-                    className="invert hover:underline underline-offset-4"
+                    className="invert"
                     width={12}
                     height={12}
                     priority
                   />
-                </Link>
+                </a>
               ))}
             </div>
           </footer>
