@@ -1,6 +1,8 @@
 import "./globals.css";
+import Image from "next/image";
 import { Inter } from "next/font/google";
 import Navbar from "@/components/Navbar";
+import Link from "@/components/Link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -40,9 +42,47 @@ export default function RootLayout({ children }) {
           " bg-[#011FA4] text-[#FFFFFF] min-h-screen flex flex-col items-center"
         }
       >
-        <div className="w-full max-w-[700px] p-4 pb-44">
+        <div className="w-full max-w-[700px] p-4">
           <Navbar />
-          <main className="">{children}</main>
+          <main className="pb-44">{children}</main>
+          <footer className="flex items-center justify-between">
+            <div className="text-xs font-light">© 2023 Bari Abbassi</div>
+            <div className="flex items-center gap-x-3">
+              {[
+                {
+                  text: "Instagram",
+                  href: "https://instagram.com/bariabbassi",
+                  src: "/instagram.svg",
+                },
+                {
+                  text: "Twitter",
+                  href: "https://twitter.com/bariabbassi",
+                  src: "/twitter.svg",
+                },
+                {
+                  text: "LinkedIn",
+                  href: "https://linkedin.com/in/bariabbassi",
+                  src: "/linkedin.svg",
+                },
+                {
+                  text: "GitHub",
+                  href: "https://github.com/bariabbassi",
+                  src: "/github.svg",
+                },
+              ].map((link) => (
+                <Link href={link.href} target="_blank">
+                  <Image
+                    src={link.src}
+                    alt={`${link.text} logo`}
+                    className="invert hover:underline underline-offset-4"
+                    width={12}
+                    height={12}
+                    priority
+                  />
+                </Link>
+              ))}
+            </div>
+          </footer>
         </div>
       </body>
     </html>
