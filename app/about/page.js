@@ -8,7 +8,7 @@ export default function About() {
         <p>
           Hi, my name is Bari. I was born in Amsterdam and moved to Morocco at
           the age of 10. I studied Computer Science in Paris and did an exchange
-          semester in Japan. During my time at university, I interned at a
+          semester in Japan. During my time at university, I worked at a
           different startup every summer.
         </p>
         <p>
