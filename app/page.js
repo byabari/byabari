@@ -21,7 +21,7 @@ export default function HomePage() {
           </a>
           . My favorite tools are
         </p>
-        <Technologies technologies={["React", "Next.js"]} />
+        <Technologies technologies={["React", "Next.js", "TypeScript"]} />
       </div>
       <Resume />
     </>
