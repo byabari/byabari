@@ -11,7 +11,8 @@ export default function HomePage() {
           I'm a product-minded Frontend Engineer
         </h2>
         <p className="mb-4">
-          I enjoy building web apps from design to backend. My latest project is{" "}
+          I enjoy building web apps from design to production. My latest project
+          is{" "}
           <a
             className="underline underline-offset-4"
             href="https://linkfolders.com"
