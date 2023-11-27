@@ -61,7 +61,7 @@ export default function Resume() {
           jobDescription="Worked on foundational Saas features: dashboard, multi-seat,
           onboarding flows, in-app chat, email notifications, payment packages
           etc."
-          jobTitle="Full Stack Engineer"
+          jobTitle="Frontend Engineer"
           startDate="Nov 2021"
           endDate="Present"
           technologies={["React", "Next.js", "TypeScript"]}
@@ -70,7 +70,7 @@ export default function Resume() {
           companyName="Hubs"
           companyWebsite="https://hubs.com"
           jobDescription="Worked on solving the problem of shipping delays in a manifacturing marketplace. On time shipping ratio rose from 87% to 92%."
-          jobTitle="Full Stack Engineer"
+          jobTitle="Frontend Engineer"
           startDate="Sep 2020"
           endDate="Mar 2021"
           technologies={["Angular", "TypeScript", "PostgreSQL"]}
