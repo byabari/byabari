@@ -33,10 +33,10 @@ export default function About() {
           You can check out my work on Instagram (
           <Link
             className="inline"
-            href="https://instagram.com/abari.cc"
+            href="https://instagram.com/bariabbassi"
             target="_blank"
           >
-            @abari.cc
+            @bariabbassi
           </Link>
           ). Some of my previous clients include Nokia, VanMoof, and El Fenn
           Hotel.
