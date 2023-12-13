@@ -56,7 +56,7 @@ export default function RootLayout({ children }) {
                 },
                 {
                   text: "Twitter",
-                  href: "https://twitter.com/bariabbassi",
+                  href: "https://twitter.com/abari_cc",
                   src: "/twitter.svg",
                 },
                 {
