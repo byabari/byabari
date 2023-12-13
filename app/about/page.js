@@ -33,7 +33,7 @@ export default function About() {
           You can check out my work on Instagram (
           <Link
             className="inline"
-            href="https://instagram.com/bariabbassi"
+            href="https://instagram.com/abari.cc"
             target="_blank"
           >
             @bariabbassi
