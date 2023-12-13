@@ -61,7 +61,7 @@ export default function RootLayout({ children }) {
                 },
                 {
                   text: "LinkedIn",
-                  href: "https://linkedin.com/in/abari_cc",
+                  href: "https://linkedin.com/in/abaricc",
                   src: "/linkedin.svg",
                 },
                 {
