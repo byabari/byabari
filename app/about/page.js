@@ -36,7 +36,7 @@ export default function About() {
             href="https://instagram.com/abari.cc"
             target="_blank"
           >
-            @bariabbassi
+            @abari.cc
           </Link>
           ). Some of my previous clients include Nokia, VanMoof, and El Fenn
           Hotel.
