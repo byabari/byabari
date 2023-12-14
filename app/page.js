@@ -8,7 +8,7 @@ export default function HomePage() {
           Hi, I'm Bari Abbassi
         </h1>
         <h2 className="text-xl sm:text-2xl font-bold mb-4">
-          I'm a product-minded Frontend Engineer
+          I'm a product-minded Full Stack Engineer
         </h2>
         <p className="mb-4">
           I enjoy building web apps from design to production. My latest project
