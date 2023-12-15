@@ -56,7 +56,7 @@ export default function Resume() {
     <>
       <div className="space-y-12">
         <Experience
-          companyName="Parctice"
+          companyName="Practice"
           companyWebsite="https://practice.do"
           jobDescription="Worked on foundational Saas features: dashboard, multi-seat,
           onboarding flows, in-app chat, email notifications, payment packages
