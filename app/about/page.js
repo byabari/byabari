@@ -2,9 +2,9 @@ import Image from "next/image";
 import Link from "@/components/Link";
 
 export const metadata = {
-  title: "About – Abari",
+  title: "About – Abari Abbassi",
   description:
-    "Hi, I'm Abari. I'm a product-minded Full Stack Engineer. I enjoy building web apps from design to production.",
+    "Hi, I'm Abari Abbassi. I'm a product-minded Full Stack Engineer. I enjoy building web apps from design to production.",
 };
 
 export default function About() {
@@ -13,10 +13,10 @@ export default function About() {
       <h1 className="text-4xl font-bold mt-24 mb-8">About</h1>
       <div className="space-y-5 mb-12">
         <div>
-          Hi, my name is Abari. I was born in Amsterdam and moved to Morocco at
-          the age of 10. I studied Computer Science in Paris and did an exchange
-          semester in Japan. During my time at university, I worked at a
-          different startup every summer.
+          Hi, my name is Abari Abbassi. I was born in Amsterdam and moved to
+          Morocco at the age of 10. I studied Computer Science in Paris and did
+          an exchange semester in Japan. During my time at university, I worked
+          at a different startup every summer.
         </div>
         <div>
           After my final semester in Japan, I joined Hubs, an Amsterdam-based
