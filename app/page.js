@@ -3,9 +3,10 @@ import Resume, { Technologies } from "@/components/Resume";
 export const metadata = {
   openGraph: {
     title: "Abari",
-    description: "",
-    url: "https://nextjs.org",
-    siteName: "Next.js",
+    description:
+      "Hi, I'm Abari. I'm a product-minded Full Stack Engineer. I enjoy building web apps from design to production.",
+    url: "https://abari.cc",
+    siteName: "Abari",
     images: [
       {
         url: "https://nextjs.org/og.png",
@@ -16,7 +17,7 @@ export const metadata = {
         url: "https://nextjs.org/og-alt.png",
         width: 1800,
         height: 1600,
-        alt: "My custom alt",
+        alt: "Abari image",
       },
     ],
     locale: "en_US",
