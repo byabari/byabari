@@ -48,7 +48,8 @@ export default function HomePage() {
           >
             Signer
           </a>
-          . My favorite tools are
+          .<br />
+          My favorite tools are
         </p>
         <Technologies technologies={["React", "Next.js", "TypeScript"]} />
       </div>
