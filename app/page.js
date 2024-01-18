@@ -1,9 +1,9 @@
 import Resume, { Technologies } from "@/components/Resume";
 
-export const metadata: Metadata = {
+export const metadata = {
   openGraph: {
-    title: "Next.js",
-    description: "The React Framework for the Web",
+    title: "Abari",
+    description: "",
     url: "https://nextjs.org",
     siteName: "Next.js",
     images: [
