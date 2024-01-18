@@ -41,12 +41,12 @@ export default function RootLayout({ children }) {
           <Navbar />
           <main className="pb-44">{children}</main>
           <footer className="flex items-center justify-between">
-            <div className="text-xs font-light">© 2023 Bari Abbassi</div>
+            <div className="text-xs font-light">© 2023 Abari</div>
             <div className="flex items-center gap-x-3">
               {[
                 {
                   text: "Instagram",
-                  href: "https://instagram.com/bariabbassi",
+                  href: "https://instagram.com/abari.cc",
                   src: "/instagram.svg",
                 },
                 {
@@ -61,7 +61,7 @@ export default function RootLayout({ children }) {
                 },
                 {
                   text: "GitHub",
-                  href: "https://github.com/bariabbassi",
+                  href: "https://github.com/abaricc",
                   src: "/github.svg",
                 },
               ].map((link) => (

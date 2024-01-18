@@ -7,7 +7,7 @@ export default function About() {
       <h1 className="text-4xl font-bold mt-24 mb-8">About</h1>
       <div className="space-y-5 mb-12">
         <div>
-          Hi, my name is Bari. I was born in Amsterdam and moved to Morocco at
+          Hi, my name is Abari. I was born in Amsterdam and moved to Morocco at
           the age of 10. I studied Computer Science in Paris and did an exchange
           semester in Japan. During my time at university, I worked at a
           different startup every summer.
@@ -33,10 +33,10 @@ export default function About() {
           You can check out my work on Instagram (
           <Link
             className="inline"
-            href="https://instagram.com/bariabbassi"
+            href="https://instagram.com/abari.cc"
             target="_blank"
           >
-            @bariabbassi
+            @abari.cc
           </Link>
           ). Some of my previous clients include Nokia, VanMoof, and El Fenn
           Hotel.
@@ -53,7 +53,7 @@ export default function About() {
           You can contact me at: <a href="mailto:hi@abari.cc">hi@abari.cc</a>
         </div>
       </div>
-      <Image src="/bari_abbassi.jpg" width={400} height={400} />
+      <Image src="/abari-about.jpg" width={400} height={400} />
     </>
   );
 }
