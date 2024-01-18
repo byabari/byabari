@@ -2,14 +2,14 @@ import "./globals.css";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import Navbar from "@/components/Navbar";
-import Link from "@/components/Link";
-
+yy;
 const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <link rel="canonical" href="https://abari.cc/" />
         <link
           rel="apple-touch-icon"
           sizes="76x76"

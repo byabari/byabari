@@ -1,6 +1,12 @@
 import Image from "next/image";
 import Link from "@/components/Link";
 
+export const metadata = {
+  title: "About – Abari",
+  description:
+    "Hi, I'm Abari. I'm a product-minded Full Stack Engineer. I enjoy building web apps from design to production.",
+};
+
 export default function About() {
   return (
     <>

@@ -1,6 +1,9 @@
 import Resume, { Technologies } from "@/components/Resume";
 
 export const metadata = {
+  title: "Abari",
+  description:
+    "Hi, I'm Abari. I'm a product-minded Full Stack Engineer. I enjoy building web apps from design to production.",
   openGraph: {
     title: "Abari",
     description:
