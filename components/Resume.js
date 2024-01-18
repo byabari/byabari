@@ -58,7 +58,7 @@ export default function Resume() {
         <Experience
           companyName="Practice"
           companyWebsite="https://practice.do"
-          jobDescription="Worked on foundational Saas features: dashboard, multi-seat,
+          jobDescription="Worked on foundational SaaS features: dashboard, multi-seat,
           onboarding flows, in-app chat, email notifications, payment packages
           etc."
           jobTitle="Front-End Engineer"
