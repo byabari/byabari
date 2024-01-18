@@ -17,7 +17,7 @@ export const metadata = {
         url: "https://nextjs.org/og-alt.png",
         width: 1800,
         height: 1600,
-        alt: "Abari image",
+        alt: "Abari og image",
       },
     ],
     locale: "en_US",
