@@ -50,8 +50,7 @@ export default function About() {
           the occasional triathlon or cycling race every few months.
         </div>
         <div>
-          You can contact me at:{" "}
-          <a href="mailto:bari@abbas.si">bari@abbas.si</a>
+          You can contact me at: <a href="mailto:hi@abari.cc">hi@abari.cc</a>
         </div>
       </div>
       <Image src="/bari_abbassi.jpg" width={400} height={400} />
