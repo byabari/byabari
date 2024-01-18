@@ -4,7 +4,7 @@ import Link from "@/components/Link";
 export const metadata = {
   title: "About – Abari Abbassi",
   description:
-    "Hi, I'm Abari Abbassi. I'm a product-minded Full Stack Engineer. I enjoy building web apps from design to production.",
+    "Hi, I'm Abari Abbassi. I'm a product-minded Front-End Engineer. I enjoy building web apps from design to production.",
 };
 
 export default function About() {
