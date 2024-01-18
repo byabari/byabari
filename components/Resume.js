@@ -62,7 +62,7 @@ export default function Resume() {
           onboarding flows, in-app chat, email notifications, payment packages
           etc."
           jobTitle="Full Stack Engineer"
-          startDate="Nov 2021"
+          startDate="Nov"
           endDate="Present"
           technologies={["React", "Next.js", "TypeScript"]}
         />
@@ -71,8 +71,8 @@ export default function Resume() {
           companyWebsite="https://hubs.com"
           jobDescription="Worked on solving the problem of shipping delays in a manifacturing marketplace. On time shipping ratio rose from 87% to 92%."
           jobTitle="Full Stack Engineer"
-          startDate="Sep 2020"
-          endDate="Mar 2021"
+          startDate="2020"
+          endDate="2021"
           technologies={["Angular", "TypeScript", "PostgreSQL"]}
         />
         <Experience
@@ -80,8 +80,8 @@ export default function Resume() {
           companyWebsite="https://ownest.io"
           jobDescription="Worked on scaling a decentralized NFT application. We were able to go from a few transactions/sec to thousands of TPS."
           jobTitle="Software Engineer Intern"
-          startDate="Apr 2019"
-          endDate="Sep 2019"
+          startDate="2019"
+          endDate="2019"
           technologies={["Go", "Cosmos SDK", "Solidity"]}
         />
         <Experience
@@ -89,8 +89,8 @@ export default function Resume() {
           companyWebsite="https://block-tech.io"
           jobDescription="Worked on automating the movement of Ether between different wallets. The algorithm predicts prices and moves funds accordingly."
           jobTitle="Software Engineer Intern"
-          startDate="Jun 2018"
-          endDate="Sep 2018"
+          startDate="2018"
+          endDate="2018"
           technologies={["Python", "Web3.py", "PostgreSQL"]}
         />
         <Experience
@@ -98,8 +98,8 @@ export default function Resume() {
           companyWebsite="https://atos.net"
           jobDescription="Worked on building a UX focused application for a client in the health sector."
           jobTitle="Software Engineer Intern"
-          startDate="Jun 2017"
-          endDate="Sep 2017"
+          startDate="2017"
+          endDate="2017"
           technologies={["JavaScript", "HTML", "CSS"]}
         />
       </div>
