@@ -112,15 +112,13 @@ export default function Resume() {
           <div className="text-xl sm:text-2xl font-semibold mb-1">
             University of Paris
           </div>
-          <p className="mb-2">MSc + BSc • Computer Science</p>
-          <p className="text-xs font-light">2014 - 2020</p>
+          <p>MSc + BSc • Computer Science</p>
         </div>
         <div className="w-1/2">
           <div className="text-xl sm:text-2xl font-semibold mb-1">
             Tohoku University
           </div>
-          <p className="mb-2">Exchange program</p>
-          <p className="text-xs font-light">2019 - 2020</p>
+          <p>Exchange program</p>
         </div>
       </div>
     </>
