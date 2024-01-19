@@ -1,15 +1,15 @@
 import Resume, { Technologies } from "@/components/Resume";
 
 export const metadata = {
-  title: "Abari Abbassi",
+  title: "Abari",
   description:
-    "Hi, I'm Abari Abbassi. I'm a product-minded Front-End Engineer. I enjoy building web apps from design to production.",
+    "Hi, I'm Abari. I'm a product-minded Front-End Engineer. I enjoy building web apps from design to production.",
   openGraph: {
-    title: "Abari Abbassi",
+    title: "Abari",
     description:
-      "Hi, I'm Abari Abbassi. I'm a product-minded Front-End Engineer. I enjoy building web apps from design to production.",
+      "Hi, I'm Abari. I'm a product-minded Front-End Engineer. I enjoy building web apps from design to production.",
     url: "https://abari.cc",
-    siteName: "Abari Abbassi",
+    siteName: "Abari",
     images: [
       {
         url: "https://nextjs.org/og.png",
@@ -20,7 +20,7 @@ export const metadata = {
         url: "https://nextjs.org/og-alt.png",
         width: 1800,
         height: 1600,
-        alt: "Abari Abbassi og image",
+        alt: "Abari og image",
       },
     ],
     locale: "en_US",
@@ -32,13 +32,13 @@ export default function HomePage() {
   return (
     <>
       <div className="h-[60vh] flex flex-col justify-center">
-        <h1 className="text-3xl sm:text-4xl font-bold mb-5">
-          Hi, I'm Abari Abbassi
+        <h1 className="text-3xl sm:text-4xl font-bold leading-tight mb-4">
+          Hi, I'm Abari
         </h1>
-        <h2 className="text-xl sm:text-2xl font-bold mb-4">
+        <h2 className="text-lg sm:text-xl font-semibold mb-3">
           I'm a product-minded Front-End Engineer
         </h2>
-        <p className="mb-4">
+        <p className="mb-4 max-w-[620px]">
           I enjoy building web apps from design to production. My latest project
           is{" "}
           <a
@@ -48,8 +48,7 @@ export default function HomePage() {
           >
             Signer
           </a>
-          .<br />
-          My favorite tools are
+          . My favorite tools are
         </p>
         <Technologies technologies={["React", "Next.js", "TypeScript"]} />
       </div>

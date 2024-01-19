@@ -2,7 +2,7 @@ export const Technologies = ({ technologies }) => {
   return (
     <div className="flex flex-wrap gap-x-1 sm:gap-x-2 gap-y-2">
       {technologies.map((technology) => (
-        <div className="text-xs font-medium border rounded-xl px-2 py-1.5">
+        <div className="text-xs font-medium border border-gray-900 rounded-xl px-2 py-1.5">
           {technology}
         </div>
       ))}

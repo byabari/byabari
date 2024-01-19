@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import Navbar from "@/components/Navbar";
 
-const inter = Inter({ subsets: ["latin"] });
+export const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({ children }) {
   return (
@@ -28,20 +28,20 @@ export default function RootLayout({ children }) {
           href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
-        <meta name="msapplication-TileColor" content="#011FA4" />
-        <meta name="theme-color" content="#011FA4" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta name="theme-color" content="#ffffff" />
       </head>
       <body
         className={
           inter.className +
-          " bg-[#011FA4] text-[#FFFFFF] min-h-screen flex flex-col items-center"
+          " text-gray-900 min-h-screen flex flex-col items-center"
         }
       >
         <div className="w-full max-w-[700px] p-4">
           <Navbar />
           <main className="pb-44">{children}</main>
           <footer className="flex items-center justify-between">
-            <div className="text-xs font-light">© 2023 Abari</div>
+            <div className="text-xs font-light">© 2024 Abari</div>
             <div className="flex items-center gap-x-3">
               {[
                 {
@@ -69,7 +69,6 @@ export default function RootLayout({ children }) {
                   <Image
                     src={link.src}
                     alt={`${link.text} logo`}
-                    className="invert"
                     width={12}
                     height={12}
                     priority
