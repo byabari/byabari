@@ -13,47 +13,34 @@ export default function About() {
       <h1 className="text-4xl font-bold mt-24 mb-8">About</h1>
       <div className="space-y-5 mb-12">
         <div>
-          Hi, my name is Abari Abbassi. I was born in Amsterdam and moved to
-          Morocco at the age of 10. I studied Computer Science in Paris and did
-          an exchange semester in Japan. During my time at university, I worked
-          at a different startup every summer.
+          Hi, my name is Abari Abbassi. I was born in Amsterdam. I gew up
+          between Morocco and Amsterdam, studied Computer Science in Paris, and
+          did an exchange semester in Japan.
         </div>
         <div>
-          After my final semester in Japan, I joined Hubs, an Amsterdam-based
-          scale-up, during its rapid growth phase. Hubs is an on-demand
-          manufacturing marketplace with manufacturing partners around the
-          world. I mainly worked on solving the problem of shipping delays.
-          During my time there, the company was acquired for $280 million and
-          rebranded from 3D Hubs to Hubs.
+          I have worked with several sturtups. Among them is Hubs. Hubs is an
+          on-demand manufacturing marketplace. I joined Hubs at the peak of
+          their rapid growth stage. I mainly worked on solving the problem of
+          shipping delays. During my time there, the company was acquired for
+          $280 million and was rebranded from 3D Hubs to Hubs.
         </div>
         <div>
-          Following that, I moved from Amsterdam to Tangier, Morocco, and joined
-          the fully remote startup, Practice, after their seed round led by
-          a16z. Practice is an all-in-one SaaS product for client-based
-          businesses, such as coaches and consultants. As a full-stack
-          developer, I worked on several core features, including the home
-          dashboard, payments, onboarding flows, email notifications, etc.
+          Following that, I joined Practice. Practice is an CRM-like product for
+          coaches and consultants. I joined Practice right after their seed
+          round, led by a16z, and helped build some of the core parts of the
+          product.
         </div>
         <div>
-          Apart from my computer work, I'm also passionate about photography.
-          You can check out my work on Instagram (
+          Apart from my computer work, I also have a passion for photography.
+          You can check out some of my work on Instagram (
           <Link
-            className="inline"
+            className="inline underline"
             href="https://instagram.com/abari.cc"
             target="_blank"
           >
             @abari.cc
           </Link>
-          ). Some of my previous clients include Nokia, VanMoof, and El Fenn
-          Hotel.
-        </div>
-        <div>
-          My lifestyle also includes regular biking and swimming. One of the
-          driving factors behind my move to Tangier was the opportunity to
-          pursue these hobbies year-round. Back in my teenage years, I competed
-          in numerous cycling races and achieved a notable 7th place at the
-          Moroccan cycling championships. These days, I continue to take part in
-          the occasional triathlon or cycling race every few months.
+          ).
         </div>
         <div>
           You can contact me at: <a href="mailto:hi@abari.cc">hi@abari.cc</a>
