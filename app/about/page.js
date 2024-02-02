@@ -13,9 +13,9 @@ export default function About() {
       <h1 className="text-4xl font-bold mt-24 mb-8">About</h1>
       <div className="space-y-5 mb-12">
         <div>
-          Hi, my name is Abari. I was born in Amsterdam, gew up between Morocco
-          and Amsterdam, studied Computer Science in Paris, and did an exchange
-          semester in Japan.
+          Hi, my name is Abari Abbassi, also known as Bari Abbassi. I was born
+          in Amsterdam, gew up between Morocco and Amsterdam, studied Computer
+          Science in Paris, and did an exchange semester in Japan.
         </div>
         <div>
           I've worked with several sturtups. Among them is Hubs. Hubs is an
