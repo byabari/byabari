@@ -43,7 +43,7 @@ export default function HomePage() {
           is{" "}
           <a
             className="underline underline-offset-4"
-            href="https://signer.abari.cc"
+            href="https://signerhq.com"
             target="_blank"
           >
             Signer
