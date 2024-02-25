@@ -46,22 +46,22 @@ export default function RootLayout({ children }) {
               {[
                 {
                   text: "Instagram",
-                  href: "https://instagram.com/abari.cc",
+                  href: "https://instagram.com/by.abari",
                   src: "/instagram.svg",
                 },
                 {
                   text: "Twitter",
-                  href: "https://twitter.com/abari_cc",
+                  href: "https://twitter.com/byabari",
                   src: "/twitter.svg",
                 },
                 {
                   text: "LinkedIn",
-                  href: "https://linkedin.com/in/abaricc",
+                  href: "https://linkedin.com/in/byabari",
                   src: "/linkedin.svg",
                 },
                 {
                   text: "GitHub",
-                  href: "https://github.com/abaricc",
+                  href: "https://github.com/byabari",
                   src: "/github.svg",
                 },
               ].map((link) => (
