@@ -9,7 +9,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="canonical" href="https://abari.cc/" />
+        <link rel="canonical" href="https://byabari.com/" />
         <link
           rel="apple-touch-icon"
           sizes="76x76"

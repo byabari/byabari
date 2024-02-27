@@ -34,16 +34,16 @@ export default function About() {
           You can check out some of my work on Instagram (
           <Link
             className="inline"
-            href="https://instagram.com/abari.cc"
+            href="https://instagram.com/byabari.com"
             target="_blank"
           >
-            @abari.cc
+            @byabari.com
           </Link>
           ).
         </div>
         <div>
           Let's chat! Shoot me an email:{" "}
-          <a href="mailto:hi@abari.cc">hi@abari.cc</a>
+          <a href="mailto:hi@byabari.com">hi@byabari.com</a>
         </div>
       </div>
       <Image src="/abari-about.jpg" width={400} height={400} />

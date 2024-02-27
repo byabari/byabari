@@ -8,7 +8,7 @@ export const metadata = {
     title: "Abari Abbassi",
     description:
       "Hi, I'm Abari Abbassi. I'm a product-minded Frontend Engineer. I enjoy building web apps from design to production.",
-    url: "https://abari.cc",
+    url: "https://byabari.com",
     siteName: "Abari Abbassi",
     images: [
       {
