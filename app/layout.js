@@ -46,7 +46,7 @@ export default function RootLayout({ children }) {
               {[
                 {
                   text: "Instagram",
-                  href: "https://instagram.com/by.abari",
+                  href: "https://instagram.com/tangierbyabari",
                   src: "/instagram.svg",
                 },
                 {
