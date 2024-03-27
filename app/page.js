@@ -39,8 +39,8 @@ export default function HomePage() {
           I'm a product-minded Frontend Engineer
         </h2>
         <p className="mb-4">
-          I enjoy building web apps from design to production. My latest project
-          is{" "}
+          I enjoy building web apps from design to production and my web
+          framework of choice is React. Some of my personal projects are{" "}
           <a
             className="underline underline-offset-4"
             href="https://signerhq.com"
@@ -48,10 +48,24 @@ export default function HomePage() {
           >
             Signer
           </a>
-          .<br />
-          My favorite tools are
+          {", "}
+          <a
+            className="underline underline-offset-4"
+            href="https://hotelfull.com"
+            target="_blank"
+          >
+            Hotelfull
+          </a>
+          {" and "}
+          <a
+            className="underline underline-offset-4"
+            href="https://linkfolders.com"
+            target="_blank"
+          >
+            LinkFolders
+          </a>
+          .
         </p>
-        <Technologies technologies={["React", "Next.js", "TypeScript"]} />
       </div>
       <Resume />
     </>
