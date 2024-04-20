@@ -1,14 +1,4 @@
-export const Technologies = ({ technologies }) => {
-  return (
-    <div className="flex flex-wrap gap-x-1 sm:gap-x-2 gap-y-2">
-      {technologies.map((technology) => (
-        <div className="text-xs font-medium border rounded-xl px-2 py-1.5">
-          {technology}
-        </div>
-      ))}
-    </div>
-  );
-};
+import Card from "@/components/Card";
 
 const Experience = ({
   companyName,
@@ -17,44 +7,25 @@ const Experience = ({
   jobTitle,
   startDate,
   endDate,
-  technologies,
 }) => {
   return (
-    <div>
-      <div className="flex items-center gap-x-4 sm:gap-x-5 mb-2">
-        <div className="w-1/2">
-          <a href={companyWebsite} target="_blank">
-            <h3 className="text-xl sm:text-2xl font-semibold hover:underline underline-offset-4">
-              {companyName}
-            </h3>
-          </a>
-        </div>
-        <div className="w-1/2">
-          <div className="text-xs">
-            {jobTitle}
-            <span className="font-light">
-              {" "}
-              • {startDate} - {endDate}
-            </span>
-          </div>
-        </div>
+    <Card title={companyName} href={companyWebsite}>
+      {/* <div className="text-gray-800 text-xs">
+        {jobTitle}
+        <span className="font-light">
+          {" "}
+          • {startDate} - {endDate}
+        </span>
       </div>
-      <div className="flex gap-x-4 sm:gap-x-5">
-        <div className="w-1/2">
-          <p className="text-sm">{jobDescription}</p>
-        </div>
-        <div className="w-1/2">
-          <Technologies technologies={technologies} />
-        </div>
-      </div>
-    </div>
+      <p className="text-gray-800 text-sm">{jobDescription}</p> */}
+    </Card>
   );
 };
 
 export default function Resume() {
   return (
     <>
-      <div className="space-y-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
         <Experience
           companyName="Practice"
           companyWebsite="https://practice.do"
@@ -64,7 +35,6 @@ export default function Resume() {
           jobTitle="Frontend Engineer"
           startDate="2021"
           endDate="2023"
-          technologies={["React", "Next.js", "TypeScript"]}
         />
         <Experience
           companyName="Hubs"
@@ -73,7 +43,6 @@ export default function Resume() {
           jobTitle="Frontend Engineer"
           startDate="2020"
           endDate="2021"
-          technologies={["Angular", "TypeScript", "PostgreSQL"]}
         />
         <Experience
           companyName="Ownest"
@@ -82,7 +51,6 @@ export default function Resume() {
           jobTitle="Software Engineer"
           startDate="2019"
           endDate="2019"
-          technologies={["Go", "Cosmos SDK", "Solidity"]}
         />
         <Experience
           companyName="BlockTech"
@@ -91,7 +59,6 @@ export default function Resume() {
           jobTitle="Software Engineer"
           startDate="2018"
           endDate="2018"
-          technologies={["Python", "Web3.py", "PostgreSQL"]}
         />
         <Experience
           companyName="Atos"
@@ -100,26 +67,7 @@ export default function Resume() {
           jobTitle="Software Engineering Intern"
           startDate="2017"
           endDate="2017"
-          technologies={["JavaScript", "HTML", "CSS"]}
         />
-      </div>
-      <p className="mt-32 mb-8">
-        I studied Computer Science in Paris and did an exchange semester in
-        Japan.
-      </p>
-      <div className="flex space-x-4 sm:space-x-5">
-        <div className="w-1/2">
-          <div className="text-xl sm:text-2xl font-semibold mb-1">
-            University of Paris
-          </div>
-          <p>MSc + BSc • Computer Science</p>
-        </div>
-        <div className="w-1/2">
-          <div className="text-xl sm:text-2xl font-semibold mb-1">
-            Tohoku University
-          </div>
-          <p>Exchange program</p>
-        </div>
       </div>
     </>
   );

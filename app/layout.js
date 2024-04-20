@@ -38,10 +38,9 @@ export default function RootLayout({ children }) {
         }
       >
         <div className="w-full max-w-[700px] p-4">
-          <Navbar />
           <main className="pb-44">{children}</main>
           <footer className="flex items-center justify-between">
-            <div className="text-xs font-light">© 2023 Abari</div>
+            <div className="text-xs font-light">© 2024 Abari</div>
             <div className="flex items-center gap-x-3">
               {[
                 {
