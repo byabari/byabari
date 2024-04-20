@@ -1,4 +1,5 @@
 import Resume, { Technologies } from "@/components/Resume";
+import Card from "@/components/Card";
 
 export const metadata = {
   title: "Abari Abbassi",
@@ -39,33 +40,14 @@ export default function HomePage() {
           I'm a product-minded Frontend Engineer
         </h2>
         <p className="mb-4">
-          I enjoy building web apps from design to production and my web
-          framework of choice is React. Some of my personal projects are{" "}
-          <a
-            className="underline underline-offset-4"
-            href="https://signerhq.com"
-            target="_blank"
-          >
-            Signer
-          </a>
-          {", "}
-          <a
-            className="underline underline-offset-4"
-            href="https://hotelfull.com"
-            target="_blank"
-          >
-            Hotelfull
-          </a>
-          {" and "}
-          <a
-            className="underline underline-offset-4"
-            href="https://linkfolders.com"
-            target="_blank"
-          >
-            LinkFolders
-          </a>
-          .
+          I enjoy building web apps from design to production using my web
+          framework of choice: React. Some of my personal projects are:
         </p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <Card title="Signer" href="signerhq.com"></Card>
+          <Card title="Hotelfull" href="hotelfull.com"></Card>
+          <Card title="Linkfolders" href="linkfolders.com"></Card>
+        </div>
       </div>
       <Resume />
     </>
