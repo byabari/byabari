@@ -9,11 +9,11 @@ const splineSansMono = Spline_Sans_Mono({ subsets: ["latin"], weight: "400" });
 export const metadata = {
   title: "Abari",
   description:
-    "Hi, I'm Abari Abbassi. I'm a product-minded Frontend Engineer. I enjoy building web apps from design to production.",
+    "Hi there, I'm Abari Abbassi. I'm a Frontend Engineer with an eye for Design.",
   openGraph: {
     title: "Abari",
     description:
-      "Hi, I'm Abari Abbassi. I'm a product-minded Frontend Engineer. I enjoy building web apps from design to production.",
+      "Hi there, I'm Abari Abbassi. I'm a Frontend Engineer with an eye for Design.",
     url: "https://byabari.com",
     siteName: "Abari",
     images: [
@@ -64,7 +64,7 @@ export default function HomePage() {
         <p>
           I was born in Amsterdam, gew up between Morocco and Amsterdam, studied
           Computer Science in Paris, and did an exchange semester in Japan. My
-          web framework of choice is React. Among the companies I've worked for
+          web framework of choice is React. Among the companies I've worked at
           are Practice and Hubs.
         </p>
         <p>

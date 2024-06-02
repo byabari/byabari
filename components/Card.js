@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Component(props) {
   return (
-    <div className={"bg-white rounded-lg border h-[200px] " + props.className}>
+    <div className={"bg-white rounded-lg border " + props.className}>
       <div className="flex items-center gap-x-3 px-3 py-3">
         <Image
           className="rounded"
