@@ -78,7 +78,12 @@ export default function HomePage() {
           was acquired for $280 million and was rebranded from 3D Hubs to Hubs.
         </p> */}
       </div>
-      {/* <Image src="/abari-about.jpg" width={400} height={400} /> */}
+      <Image
+        className="mb-14"
+        src="/abari-about.jpg"
+        width={400}
+        height={400}
+      />
       <Resume />
       {/* <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <Card title="Hotelfull" href="hotelfull.com"></Card>
