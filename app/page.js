@@ -36,8 +36,8 @@ export const metadata = {
 
 export default function HomePage() {
   return (
-    <div className="mb-24">
-      <div className="mt-24">
+    <div className="flex flex-col justify-center mt-24">
+      <div className="">
         {/* <Image
             className="rounded-lg inline ml-2 mb-8"
             width={95}
@@ -48,18 +48,6 @@ export default function HomePage() {
           Hi there, I'm{" "}
           <span className="italic leading-tighter text-blue-800">Abari</span>
         </h1>
-
-        {/* 
-          <h1 className={instrumentSerif.className + " text-5xl inline"}>
-            Hi there, I'm{" "}
-            <span className="leading-tight text-blue-800">Abari</span>
-          </h1>
-          <Image
-            className="rounded-full inline ml-2 mb-3"
-            width={45}
-            height={4}
-            src="/abari.jpg"
-          /> */}
       </div>
       <h2
         className={
@@ -70,16 +58,6 @@ export default function HomePage() {
         <br />
         with an eye for <span className="italic leading-tighter">Design</span>.
       </h2>
-
-      {/* <h2 className={instrumentSerif.className + " text-xl sm:text-5xl mb-4"}>
-          a <span className="italic mr-1">Frontend Engineer </span> with an eye
-          for design
-        </h2> */}
-
-      {/* <p className="mb-8">
-          I enjoy crafting beautiful and easy-to-use UI. My web framework of
-          choice is React. Some of my personal projects are:
-        </p> */}
       <div
         className={splineSansMono.className + " text-[#707070] space-y-5 mb-24"}
       >

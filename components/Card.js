@@ -15,7 +15,9 @@ export default function Component(props) {
 
         <h2 className="text-gray-800 font-medium">{props.title}</h2>
       </div>
-      {props.children && <p className="p-3 pt-0 h-[80px]">{props.children}</p>}
+      {props.children && (
+        <div className="p-3 pt-0 h-[80px]">{props.children}</div>
+      )}
       {props.imageSrc && (
         <Image src={props.imageSrc} alt={props.title} width={429} height={32} />
       )}
