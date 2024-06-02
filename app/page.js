@@ -64,7 +64,7 @@ export default function HomePage() {
         <p>
           I was born in Amsterdam, gew up between Morocco and Amsterdam, studied
           Computer Science in Paris, and did an exchange semester in Japan. My
-          web framework of choice is React. Among the companies I've worked at
+          web framework of choice is React. Among the companies I've worked for
           are Practice and Hubs.
         </p>
         {/* <p>
