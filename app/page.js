@@ -59,7 +59,7 @@ export default function HomePage() {
         with an eye for <span className="italic leading-tighter">Design</span>.
       </h2>
       <div
-        className={splineSansMono.className + " text-[#707070] space-y-5 mb-24"}
+        className={splineSansMono.className + " text-[#707070] space-y-5 mb-6"}
       >
         <p>
           I was born in Amsterdam, gew up between Morocco and Amsterdam, studied
@@ -67,7 +67,7 @@ export default function HomePage() {
           web framework of choice is React. Among the companies I've worked at
           are Practice and Hubs.
         </p>
-        <p>
+        {/* <p>
           Practice is a CRM-like product for coaches and consultants. I joined
           Practice right after their seed round, led by a16z, and helped build
           some of the core parts of the product.
@@ -76,8 +76,9 @@ export default function HomePage() {
           Hubs is an on-demand manufacturing marketplace. I joined Hubs at the
           peak of their rapid growth stage. During my time there, the company
           was acquired for $280 million and was rebranded from 3D Hubs to Hubs.
-        </p>
+        </p> */}
       </div>
+      {/* <Image src="/abari-about.jpg" width={400} height={400} /> */}
       <Resume />
       {/* <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <Card title="Hotelfull" href="hotelfull.com"></Card>
