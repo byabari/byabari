@@ -7,17 +7,11 @@ const Experience = ({
   jobTitle,
   startDate,
   endDate,
+  imageSrc,
 }) => {
   return (
-    <Card title={companyName} href={companyWebsite}>
-      {/* <div className="text-gray-800 text-xs">
-        {jobTitle}
-        <span className="font-light">
-          {" "}
-          • {startDate} - {endDate}
-        </span>
-      </div>
-      <p className="text-gray-800 text-sm">{jobDescription}</p> */}
+    <Card title={companyName} href={companyWebsite} imageSrc={imageSrc}>
+      <p className="text-gray-800 text-sm">{jobDescription}</p>
     </Card>
   );
 };
@@ -29,30 +23,32 @@ export default function Resume() {
         <Experience
           companyName="Practice"
           companyWebsite="https://practice.do"
-          jobDescription="Worked on foundational Saas features: dashboard, multi-seat,
-          onboarding flows, in-app chat, email notifications, payment packages
-          etc."
+          jobDescription="Worked on foundational Saas features: dashboard,
+          onboarding flows, in-app chat, email notifications, payments etc."
           jobTitle="Frontend Engineer"
           startDate="2021"
           endDate="2023"
+          imageSrc="/practice.jpg"
         />
         <Experience
           companyName="Hubs"
           companyWebsite="https://hubs.com"
-          jobDescription="Worked on solving the problem of shipping delays in a manifacturing marketplace. On time shipping ratio rose from 87% to 92%."
+          jobDescription="Worked on solving the problem of shipping delays. On time shipping ratio rose from 87% to 92%."
           jobTitle="Frontend Engineer"
           startDate="2020"
           endDate="2021"
+          imageSrc="/hubs.jpg"
         />
-        <Experience
+        {/* <Experience
           companyName="Ownest"
           companyWebsite="https://ownest.io"
           jobDescription="Worked on scaling a decentralized NFT application. We were able to go from a few transactions/sec to thousands of TPS."
           jobTitle="Software Engineer"
           startDate="2019"
           endDate="2019"
-        />
-        <Experience
+          imageSrc="/ownest.jpg"
+        /> */}
+        {/* <Experience
           companyName="BlockTech"
           companyWebsite="https://block-tech.io"
           jobDescription="Worked on automating the movement of Ether between different wallets. The algorithm predicts prices and moves funds accordingly."
@@ -67,7 +63,7 @@ export default function Resume() {
           jobTitle="Software Engineering Intern"
           startDate="2017"
           endDate="2017"
-        />
+        /> */}
       </div>
     </>
   );

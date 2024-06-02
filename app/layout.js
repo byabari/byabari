@@ -34,13 +34,13 @@ export default function RootLayout({ children }) {
       <body
         className={
           inter.className +
-          " bg-[#011FA4] text-[#FFFFFF] min-h-screen flex flex-col items-center"
+          " text-[#000000] bg-[#f5f5f3] min-h-screen flex flex-col items-center"
         }
       >
         <div className="w-full max-w-[700px] p-4">
           <main className="pb-44">{children}</main>
           <footer className="flex items-center justify-between">
-            <div className="text-xs font-light">© 2024 Abari</div>
+            <div className="text-xs font-light">© 2024</div>
             <div className="flex items-center gap-x-3">
               {[
                 {
