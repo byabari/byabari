@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export default function Component(props) {
   return (
-    <div className={"bg-white rounded-lg border " + props.className}>
-      <div className="flex items-center gap-x-3 px-3 py-3">
+    <div className={"bg-white rounded-2xl border " + props.className}>
+      <div className="flex items-center gap-x-3 px-5 py-4">
         <Image
           className="rounded"
           src={`https://s2.googleusercontent.com/s2/favicons?domain=${props.href}&sz=32`}
@@ -15,9 +15,7 @@ export default function Component(props) {
 
         <h2 className="text-gray-800 font-medium">{props.title}</h2>
       </div>
-      {props.children && (
-        <div className="p-3 pt-0 h-[80px]">{props.children}</div>
-      )}
+      {props.children && <div className="px-4 pt-0 pb-5">{props.children}</div>}
       {props.imageSrc && (
         <Image src={props.imageSrc} alt={props.title} width={429} height={32} />
       )}
