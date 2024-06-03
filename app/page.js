@@ -38,14 +38,14 @@ export default function HomePage() {
   return (
     <div className="flex flex-col justify-center ">
       <div className="flex items-center mt-12 sm:mt-24 mb-12">
-        <Image
+        {/* <Image
           className="rounded-full inline ml-0.5 mr-3"
           width={90}
           height={4}
           src="/abari.jpg"
-        />
+        /> */}
         <h1 className={instrumentSerif.className + " text-4xl sm:text-5xl"}>
-          Hi there, I'm <span className="italic leading-tighter">Abari</span>
+          Hey, I'm <span className="italic leading-tighter">Abari</span>
         </h1>
       </div>
       <h2 className={instrumentSerif.className + " text-4xl sm:text-5xl mb-14"}>
