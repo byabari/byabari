@@ -39,7 +39,7 @@ export default function Resume() {
           companyWebsite="https://hubs.com"
           jobDescription="Hubs is an on-demand manufacturing marketplace. I joined Hubs at the
           peak of their rapid growth stage. During my time there, the company
-          was acquired for $280 million by Protolabs."
+          was acquired for $300 million by Protolabs."
           jobTitle="Frontend Engineer"
           startDate="2020"
           endDate="2021"
