@@ -1,10 +1,11 @@
-import { Instrument_Serif, Spline_Sans_Mono } from "next/font/google";
+import { Instrument_Serif, Spline_Sans_Mono, Inter } from "next/font/google";
 import Resume from "@/components/Resume";
 import Card from "@/components/Card";
 import Image from "next/image";
 
 const instrumentSerif = Instrument_Serif({ subsets: ["latin"], weight: "400" });
 const splineSansMono = Spline_Sans_Mono({ subsets: ["latin"], weight: "400" });
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Abari",
@@ -37,17 +38,27 @@ export const metadata = {
 export default function HomePage() {
   return (
     <div className="flex flex-col justify-center ">
-      <div className="flex items-center mt-12 sm:mt-24 mb-12">
-        {/* <Image
+      {/* <div className="flex items-center mt-12 sm:mt-24 mb-12">
+        <Image
           className="rounded-full inline ml-0.5 mr-3"
-          width={90}
+          width={50}
           height={4}
           src="/abari.jpg"
-        /> */}
-        <h1 className={instrumentSerif.className + " text-4xl sm:text-5xl"}>
-          Hey, I'm <span className="italic leading-tighter">Abari</span>
-        </h1>
-      </div>
+        />
+        <div>
+          <h1 className="text-lg font-medium">Abari Abbassi</h1>
+          <h1 className="text-xs opacity-70">Tangier, Morocco</h1>
+        </div>
+      </div> */}
+
+      <h1
+        className={
+          splineSansMono.className +
+          " text-md text-[#cccccc] space-y-5 mt-12 sm:mt-24 mb-12"
+        }
+      >
+        Hey, I'm <span className="leading-tighter">Abari</span>
+      </h1>
       <h2 className={instrumentSerif.className + " text-4xl sm:text-5xl mb-14"}>
         I'm a <span className="italic leading-tighter">Frontend Engineer</span>
         <br />
