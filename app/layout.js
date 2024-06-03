@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
       <body
         className={
           inter.className +
-          " text-[#000000] bg-[#f5f5f3] min-h-screen flex flex-col items-center"
+          " text-[#ffffff] bg-[#153ea4] min-h-screen flex flex-col items-center"
         }
       >
         <div className="w-full max-w-[700px] p-4">
@@ -67,7 +67,7 @@ export default function RootLayout({ children }) {
                   <Image
                     src={link.src}
                     alt={`${link.text} logo`}
-                    className="opacity-60"
+                    className="invert"
                     width={12}
                     height={12}
                     priority
@@ -75,7 +75,7 @@ export default function RootLayout({ children }) {
                 </a>
               ))}
             </div>
-            <div className="text-xs font-light text-[#707070]">© 2024</div>
+            <div className="text-xs font-light text-[#cccccc]">© 2024</div>
           </footer>
         </div>
       </body>

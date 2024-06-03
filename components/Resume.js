@@ -14,7 +14,7 @@ const Experience = ({
 }) => {
   return (
     <Card title={companyName} href={companyWebsite} imageSrc={imageSrc}>
-      <p className={splineSansMono.className + " text-[#707070]"}>
+      <p className={splineSansMono.className + " text-[#cccccc]"}>
         {jobDescription}
       </p>
     </Card>

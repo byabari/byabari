@@ -4,16 +4,16 @@ import Image from "next/image";
 export default function Component(props) {
   return (
     <div className={"rounded-2xl " + props.className}>
-      <div className="flex items-center gap-x-4 pl-1 pr-1.5 py-4">
+      <div className="flex items-center gap-x-4 pl-1 py-4">
         <Image
-          className="rounded"
+          className="rounded -mr-1.5"
           src={`https://s2.googleusercontent.com/s2/favicons?domain=${props.href}&sz=32`}
           alt={props.href}
           width={32}
           height={32}
         />
 
-        <h2 className="text-gray-800 font-medium">{props.title}</h2>
+        <h2 className="font-medium">{props.title}</h2>
       </div>
       {props.children && <div className="pt-0 pb-5">{props.children}</div>}
       {props.imageSrc && (

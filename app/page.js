@@ -54,7 +54,7 @@ export default function HomePage() {
         with an eye for <span className="italic leading-tighter">Design</span>.
       </h2>
       <div
-        className={splineSansMono.className + " text-[#707070] space-y-5 mb-6"}
+        className={splineSansMono.className + " text-[#cccccc] space-y-5 mb-6"}
       >
         <p>
           I was born in Amsterdam, gew up between Morocco and Amsterdam, studied
