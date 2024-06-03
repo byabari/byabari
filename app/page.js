@@ -37,21 +37,20 @@ export const metadata = {
 export default function HomePage() {
   return (
     <div className="flex flex-col justify-center mt-24">
-      <div className="">
-        {/* <Image
-            className="rounded-lg inline ml-2 mb-8"
-            width={95}
-            height={4}
-            src="/abari.jpg"
-          /> */}
+      <div className="flex items-center ">
+        <Image
+          className="rounded-full inline mr-3"
+          width={95}
+          height={4}
+          src="/abari.jpg"
+        />
         <h1 className={instrumentSerif.className + " text-5xl"}>
-          Hi there, I'm{" "}
-          <span className="italic leading-tighter text-blue-800">Abari</span>
+          Hi there, I'm <span className="italic leading-tighter">Abari</span>
         </h1>
       </div>
       <h2
         className={
-          instrumentSerif.className + " text-4xl sm:text-5xl mt-24 mb-14"
+          instrumentSerif.className + " text-4xl sm:text-5xl mt-12 mb-14"
         }
       >
         I'm a <span className="italic leading-tighter">Frontend Engineer</span>
