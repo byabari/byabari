@@ -39,7 +39,7 @@ export default function HomePage() {
     <div className="flex flex-col justify-center ">
       <div className="flex items-center mt-12 sm:mt-24 mb-12">
         <Image
-          className="rounded-full inline ml-1 mr-3"
+          className="rounded-full inline ml-0.5 mr-3"
           width={90}
           height={4}
           src="/abari.jpg"

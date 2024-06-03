@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Component(props) {
   return (
     <div className={"rounded-2xl " + props.className}>
-      <div className="flex items-center gap-x-4 px-1.5 py-4">
+      <div className="flex items-center gap-x-4 pl-1 pr-1.5 py-4">
         <Image
           className="rounded"
           src={`https://s2.googleusercontent.com/s2/favicons?domain=${props.href}&sz=32`}
