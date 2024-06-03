@@ -57,7 +57,7 @@ export default function HomePage() {
           " text-md text-[#cccccc] space-y-5 mt-12 sm:mt-24 mb-12"
         }
       >
-        Hey, I'm <span className="leading-tighter">Abari</span>
+        Hey, I'm <span className="text-green-400">Abari</span>
       </h1>
       <h2 className={instrumentSerif.className + " text-4xl sm:text-5xl mb-14"}>
         I'm a <span className="italic leading-tighter">Frontend Engineer</span>
@@ -71,7 +71,8 @@ export default function HomePage() {
           I was born in Amsterdam, gew up between Morocco and Amsterdam, studied
           Computer Science in Paris, and did an exchange semester in Japan. My
           web framework of choice is React. Among the companies I've worked for
-          are Practice and Hubs.
+          are <span className="text-yellow-500">Practice</span> and{" "}
+          <span className="text-purple-500">Hubs</span>.
         </p>
         {/* <p>
           Practice is a CRM-like product for coaches and consultants. I joined
