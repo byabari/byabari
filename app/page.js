@@ -8,15 +8,15 @@ const splineSansMono = Spline_Sans_Mono({ subsets: ["latin"], weight: "400" });
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Abari",
+  title: "Abari Abbassi",
   description:
     "Hi there, I'm Abari Abbassi. I'm a Frontend Engineer with an eye for Design.",
   openGraph: {
-    title: "Abari",
+    title: "Abari Abbassi",
     description:
       "Hi there, I'm Abari Abbassi. I'm a Frontend Engineer with an eye for Design.",
     url: "https://byabari.com",
-    siteName: "Abari",
+    siteName: "Abari Abbassi",
     images: [
       {
         url: "https://nextjs.org/og.png",
@@ -27,7 +27,7 @@ export const metadata = {
         url: "https://nextjs.org/og-alt.png",
         width: 1800,
         height: 1600,
-        alt: "Abari",
+        alt: "Abari Abbassi",
       },
     ],
     locale: "en_US",
@@ -57,7 +57,7 @@ export default function HomePage() {
           " text-md text-[#cccccc] space-y-5 mt-12 sm:mt-24 mb-12"
         }
       >
-        Hey, I'm <span className="text-green-400">Abari</span>
+        Hey, I'm <span className="text-green-400">Abari Abbassi</span>
       </h1>
       <h2 className={instrumentSerif.className + " text-4xl sm:text-5xl mb-14"}>
         I'm a <span className="italic leading-tighter">Frontend Engineer</span>
@@ -71,7 +71,7 @@ export default function HomePage() {
           I was born in Amsterdam, gew up between Morocco and Amsterdam, studied
           Computer Science in Paris, and did an exchange semester in Japan. My
           web framework of choice is React. Among the companies I've worked for
-          are <span className="text-yellow-500">Practice</span> and{" "}
+          are <span className="text-yellow-400">Practice</span> and{" "}
           <span className="text-purple-500">Hubs</span>.
         </p>
         {/* <p>
