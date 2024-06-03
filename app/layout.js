@@ -40,7 +40,6 @@ export default function RootLayout({ children }) {
         <div className="w-full max-w-[700px] p-4">
           <main className="pb-44">{children}</main>
           <footer className="flex items-center justify-between">
-            <div className="text-xs font-light">© 2024</div>
             <div className="flex items-center gap-x-3">
               {[
                 {
@@ -68,7 +67,6 @@ export default function RootLayout({ children }) {
                   <Image
                     src={link.src}
                     alt={`${link.text} logo`}
-                    className="invert"
                     width={12}
                     height={12}
                     priority
@@ -76,6 +74,7 @@ export default function RootLayout({ children }) {
                 </a>
               ))}
             </div>
+            <div className="text-xs font-light">© 2024</div>
           </footer>
         </div>
       </body>
