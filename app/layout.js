@@ -28,13 +28,13 @@ export default function RootLayout({ children }) {
           href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
-        <meta name="msapplication-TileColor" content="#f5f5f3" />
-        <meta name="theme-color" content="#f5f5f3" />
+        <meta name="msapplication-TileColor" content="#011FA4" />
+        <meta name="theme-color" content="#011FA4" />
       </head>
       <body
         className={
           inter.className +
-          " text-[#ffffff] bg-[#153ea4] min-h-screen flex flex-col items-center"
+          " text-[#ffffff] bg-[#011FA4] min-h-screen flex flex-col items-center"
         }
       >
         <div className="w-full max-w-[700px] p-4">
