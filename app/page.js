@@ -1,22 +1,21 @@
-import { Instrument_Serif, Spline_Sans_Mono, Inter } from "next/font/google";
+import { Instrument_Serif, Spline_Sans_Mono } from "next/font/google";
 import Resume from "@/components/Resume";
 import Card from "@/components/Card";
 import Image from "next/image";
 
 const instrumentSerif = Instrument_Serif({ subsets: ["latin"], weight: "400" });
 const splineSansMono = Spline_Sans_Mono({ subsets: ["latin"], weight: "400" });
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Abari Abbassi",
+  title: "Abari",
   description:
     "Hi there, I'm Abari Abbassi. I'm a Frontend Engineer with an eye for Design.",
   openGraph: {
-    title: "Abari Abbassi",
+    title: "Abari",
     description:
       "Hi there, I'm Abari Abbassi. I'm a Frontend Engineer with an eye for Design.",
     url: "https://byabari.com",
-    siteName: "Abari Abbassi",
+    siteName: "Abari",
     images: [
       {
         url: "https://nextjs.org/og.png",
@@ -27,38 +26,27 @@ export const metadata = {
         url: "https://nextjs.org/og-alt.png",
         width: 1800,
         height: 1600,
-        alt: "Abari Abbassi",
+        alt: "Abari",
       },
     ],
     locale: "en_US",
     type: "website",
   },
 };
-
 export default function HomePage() {
   return (
     <div className="flex flex-col justify-center ">
-      {/* <div className="flex items-center mt-12 sm:mt-24 mb-12">
-        <Image
+      <div className="flex items-center mt-12 sm:mt-24 mb-12">
+        {/* <Image
           className="rounded-full inline ml-0.5 mr-3"
-          width={50}
+          width={90}
           height={4}
           src="/abari.jpg"
-        />
-        <div>
-          <h1 className="text-lg font-medium">Abari Abbassi</h1>
-          <h1 className="text-xs opacity-70">Tangier, Morocco</h1>
-        </div>
-      </div> */}
-
-      <h1
-        className={
-          splineSansMono.className +
-          " text-md text-[#cccccc] space-y-5 mt-12 sm:mt-24 mb-12"
-        }
-      >
-        Hey, I'm <span className="text-green-400">Abari Abbassi</span>
-      </h1>
+        /> */}
+        <h1 className={instrumentSerif.className + " text-4xl sm:text-5xl"}>
+          Hey, I'm <span className="italic leading-tighter">Abari</span>
+        </h1>
+      </div>
       <h2 className={instrumentSerif.className + " text-4xl sm:text-5xl mb-14"}>
         I'm a <span className="italic leading-tighter">Frontend Engineer</span>
         <br />
@@ -71,8 +59,7 @@ export default function HomePage() {
           I was born in Amsterdam, gew up between Morocco and Amsterdam, studied
           Computer Science in Paris, and did an exchange semester in Japan. My
           web framework of choice is React. Among the companies I've worked for
-          are <span className="text-yellow-400">Practice</span> and{" "}
-          <span className="text-purple-500">Hubs</span>.
+          are Practice and Hubs.
         </p>
         {/* <p>
           Practice is a CRM-like product for coaches and consultants. I joined
@@ -94,12 +81,10 @@ export default function HomePage() {
       <Resume />
       {/* <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <Card title="Hotelfull" href="hotelfull.com"></Card>
-
               <Card title="Signer" href="signerhq.com"></Card>
               <Card title="Linkfolders" href="linkfolders.com"></Card>
             </div> */}
       {/* <Image src="/abari-about.jpg" width={400} height={400} /> */}
-
       {/* <h2
           className={instrumentSerif.className + " text-4xl sm:text-5xl mb-4"}
         >
