@@ -79,6 +79,27 @@ export default function HomePage() {
         height={400}
       />
       <Resume />
+      <h2
+        className={
+          instrumentSerif.className + " text-4xl sm:text-5xl mt-24 mb-8"
+        }
+      >
+        I also post stuff on{" "}
+        <span className="italic leading-tighter">Instagram</span>
+        {/* <br />
+        about <span className="italic leading-tighter">Tangier</span> */}
+      </h2>
+      <div className="flex gap-2 mb-9">
+        <Image src="/instagram-1.jpg" width={200} height={400} />
+        <Image src="/instagram-2.jpg" width={200} height={400} />
+        <Image src="/instagram-3.jpg" width={200} height={400} />
+      </div>
+      <p
+        className={splineSansMono.className + " text-[#cccccc] space-y-5 mb-6"}
+      >
+        You can find me at @tangierbyabari.
+      </p>
+
       {/* <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <Card title="Hotelfull" href="hotelfull.com"></Card>
               <Card title="Signer" href="signerhq.com"></Card>
