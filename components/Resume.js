@@ -4,6 +4,7 @@ import { Spline_Sans_Mono } from "next/font/google";
 const splineSansMono = Spline_Sans_Mono({ subsets: ["latin"], weight: "400" });
 
 const Experience = ({
+  logoImageSrc,
   companyName,
   companyWebsite,
   jobDescription,
@@ -13,7 +14,12 @@ const Experience = ({
   imageSrc,
 }) => {
   return (
-    <Card title={companyName} href={companyWebsite} imageSrc={imageSrc}>
+    <Card
+      logoImageSrc={logoImageSrc}
+      title={companyName}
+      href={companyWebsite}
+      imageSrc={imageSrc}
+    >
       <p className={splineSansMono.className + " text-[#cccccc]"}>
         {jobDescription}
       </p>
@@ -26,6 +32,7 @@ export default function Resume() {
     <>
       <div className="grid grid-cols-1 sm:grid-cols-1 gap-x-3 gap-y-8">
         <Experience
+          logoImageSrc="/practice-logo.jpg"
           companyName="Practice"
           companyWebsite="https://practice.do"
           jobDescription="Practice is a CRM-like product for coaches and consultants. I joined Practice right after their seed round, led by a16z, and helped build some of the core parts of the product."
@@ -35,6 +42,7 @@ export default function Resume() {
           imageSrc="/practice.jpg"
         />
         <Experience
+          logoImageSrc="/hubs-logo.jpg"
           companyName="Hubs"
           companyWebsite="https://hubs.com"
           jobDescription="Hubs is an on-demand manufacturing marketplace. I joined Hubs at the
@@ -43,7 +51,7 @@ export default function Resume() {
           jobTitle="Frontend Engineer"
           startDate="2020"
           endDate="2021"
-          imageSrc="/hubs.jpg"
+          imageSrc="/hubs.webp"
         />
         {/* <Experience
           companyName="Ownest"

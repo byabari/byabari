@@ -7,8 +7,8 @@ export default function Component(props) {
       <div className="flex items-center gap-x-4 pl-1 py-4">
         <Image
           className="rounded -mr-1.5"
-          src={`https://s2.googleusercontent.com/s2/favicons?domain=${props.href}&sz=32`}
-          alt={props.href}
+          src={props.logoImageSrc}
+          alt={props.title + " logo"}
           width={32}
           height={32}
         />
@@ -17,7 +17,7 @@ export default function Component(props) {
       </div>
       {props.children && <div className="pt-0 pb-5">{props.children}</div>}
       {props.imageSrc && (
-        <Image src={props.imageSrc} alt={props.title} width={429} height={32} />
+        <Image src={props.imageSrc} alt={props.title} width={450} height={32} />
       )}
     </div>
   );
