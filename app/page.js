@@ -43,7 +43,7 @@ export default function HomePage() {
           height={4}
           src="/abari.jpg"
         /> */}
-        <h1 className={instrumentSerif.className + " text-4xl sm:text-5xl"}>
+        <h1 className={instrumentSerif.className + " text-3xl sm:text-4xl"}>
           Hey, I'm <span className="italic leading-tighter">Abari</span>
         </h1>
       </div>
@@ -59,7 +59,23 @@ export default function HomePage() {
           I was born in Amsterdam, gew up between Morocco and Amsterdam, studied
           Computer Science in Paris, and did an exchange semester in Japan. My
           web framework of choice is React. Among the companies I've worked for
-          are Practice and Hubs.
+          are{" "}
+          <a
+            className="text-yellow-300 hover:underline underline-offset-4"
+            href="https://hotelfull.com/"
+            target="_blank"
+          >
+            Practice
+          </a>{" "}
+          and{" "}
+          <a
+            className="text-yellow-300 hover:underline underline-offset-4"
+            href="https://hotelfull.com/"
+            target="_blank"
+          >
+            Hubs
+          </a>
+          .
         </p>
         {/* I'm currently based in Tangier, Morocco and work with companies from
         around the world. */}
@@ -75,7 +91,7 @@ export default function HomePage() {
         </p> */}
       </div>
       <Image
-        className="mb-14 mx-auto sm:mx-0"
+        className="mb-14 sm:mx-0"
         src="/abari.jpg"
         width={400}
         height={400}
@@ -83,7 +99,7 @@ export default function HomePage() {
       <Resume />
       <h2
         className={
-          instrumentSerif.className + " text-4xl sm:text-5xl mt-32 mb-8"
+          instrumentSerif.className + " text-3xl sm:text-4xl mt-32 mb-8"
         }
       >
         My latest side project is{" "}
@@ -92,16 +108,24 @@ export default function HomePage() {
         where I build websites{" "}
         <span className="italic leading-tighter">Hotels</span>
       </h2>
+      {/* <Card title="Hotelfull" logoImageSrc="/hotelfull-logo.jpg" /> */}
       <p
         className={splineSansMono.className + " text-[#cccccc] space-y-5 mb-6"}
       >
         I've always been interested in the travel and hospitality space. My
         first job in the industry was at El Fenn Hotel in Marrakech at the age
-        of 18. At 22, I created my first Airbnb listing. The idea for Hotelfull
-        came naturally, being around people from the industry. Other side
+        of 18. At 22, I created my first ever Airbnb listing. The idea for{" "}
+        <a
+          className="text-yellow-300 hover:underline underline-offset-4"
+          href="https://hotelfull.com/"
+          target="_blank"
+        >
+          Hotelfull
+        </a>{" "}
+        z came naturally, being around people from the industry. Other side
         projects I've worked on previously were{" "}
         <a
-          className="text-white hover:underline underline-offset-8"
+          className="text-yellow-300 hover:underline underline-offset-4"
           href="https://signerhq.com/"
           target="_blank"
         >
@@ -109,7 +133,7 @@ export default function HomePage() {
         </a>{" "}
         and{" "}
         <a
-          className="text-white hover:underline underline-offset-8"
+          className="text-yellow-300 hover:underline underline-offset-4"
           href="https://linkfolders.com/"
           target="_blank"
         >
@@ -132,7 +156,7 @@ export default function HomePage() {
       </h2> */}
       <h2
         className={
-          instrumentSerif.className + " text-4xl sm:text-5xl mt-24 mb-8"
+          instrumentSerif.className + " text-3xl sm:text-4xl mt-24 mb-8"
         }
       >
         I also post stuff on{" "}
@@ -140,17 +164,17 @@ export default function HomePage() {
         {/* <br />
         about <span className="italic leading-tighter">Tangier</span> */}
       </h2>
-      <div className="w-full flex justify-center sm:justify-start flex-wrap gap-2 mb-9">
-        <Image src="/instagram-1.jpg" width={200} height={400} />
-        <Image src="/instagram-2.jpg" width={200} height={400} />
-        <Image src="/instagram-3.jpg" width={200} height={400} />
+      <div className="flex flex-wrap gap-2 mb-9">
+        <Image src="/instagram-1.jpg" width={180} height={400} />
+        <Image src="/instagram-2.jpg" width={180} height={400} />
+        <Image src="/instagram-3.jpg" width={180} height={400} />
       </div>
       <p
         className={splineSansMono.className + " text-[#cccccc] space-y-5 mb-6"}
       >
         You can find me at{" "}
         <a
-          className="text-white hover:underline underline-offset-8"
+          className="text-yellow-300 hover:underline underline-offset-4"
           href="https://www.instagram.com/tangierbyabari"
           target="_blank"
         >

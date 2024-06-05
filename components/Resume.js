@@ -1,7 +1,4 @@
 import Card from "@/components/Card";
-import { Spline_Sans_Mono } from "next/font/google";
-
-const splineSansMono = Spline_Sans_Mono({ subsets: ["latin"], weight: "400" });
 
 const Experience = ({
   logoImageSrc,
@@ -19,11 +16,8 @@ const Experience = ({
       title={companyName}
       href={companyWebsite}
       imageSrc={imageSrc}
-    >
-      <p className={splineSansMono.className + " text-[#cccccc]"}>
-        {jobDescription}
-      </p>
-    </Card>
+      description={jobDescription}
+    />
   );
 };
 

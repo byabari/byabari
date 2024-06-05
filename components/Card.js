@@ -1,5 +1,8 @@
 import NextLink from "next/link";
 import Image from "next/image";
+import { Spline_Sans_Mono } from "next/font/google";
+
+const splineSansMono = Spline_Sans_Mono({ subsets: ["latin"], weight: "400" });
 
 export default function Component(props) {
   return (
@@ -15,7 +18,13 @@ export default function Component(props) {
 
         <h2 className="font-medium">{props.title}</h2>
       </div>
-      {props.children && <div className="pt-0 pb-5">{props.children}</div>}
+      {props.description && (
+        <div className="pt-0 pb-5">
+          <p className={splineSansMono.className + " text-[#cccccc]"}>
+            {props.description}
+          </p>
+        </div>
+      )}
       {props.imageSrc && (
         <Image src={props.imageSrc} alt={props.title} width={450} height={32} />
       )}
