@@ -61,6 +61,8 @@ export default function HomePage() {
           web framework of choice is React. Among the companies I've worked for
           are Practice and Hubs.
         </p>
+        {/* I'm currently based in Tangier, Morocco and work with companies from
+        around the world. */}
         {/* <p>
           Practice is a CRM-like product for coaches and consultants. I joined
           Practice right after their seed round, led by a16z, and helped build
@@ -74,7 +76,7 @@ export default function HomePage() {
       </div>
       <Image
         className="mb-14 mx-auto sm:mx-0"
-        src="/abari-about.jpg"
+        src="/abari.jpg"
         width={400}
         height={400}
       />
