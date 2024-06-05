@@ -50,7 +50,7 @@ export default function HomePage() {
       <h2 className={instrumentSerif.className + " text-4xl sm:text-5xl mb-14"}>
         I'm a <span className="italic leading-tighter">Frontend Engineer</span>
         <br />
-        with an eye for <span className="italic leading-tighter">Design</span>.
+        with an eye for <span className="italic leading-tighter">Design</span>
       </h2>
       <div
         className={splineSansMono.className + " text-[#cccccc] space-y-5 mb-6"}
@@ -81,6 +81,55 @@ export default function HomePage() {
         height={400}
       />
       <Resume />
+      <h2
+        className={
+          instrumentSerif.className + " text-4xl sm:text-5xl mt-24 mb-8"
+        }
+      >
+        My latest side project is{" "}
+        <span className="italic leading-tighter">Hotelfull</span>
+        <br />
+        where I build websites{" "}
+        <span className="italic leading-tighter">Hotels</span>
+      </h2>
+      <p
+        className={splineSansMono.className + " text-[#cccccc] space-y-5 mb-6"}
+      >
+        I've always been interested in the travel and hospitality space. My
+        first job in the industry was at El Fenn Hotel in Marrakech at the age
+        of 18. At 22, I created my first Airbnb listing. The idea for Hotelfull
+        came naturally, being around people from the industry. Other side
+        projects I've worked on previously were{" "}
+        <a
+          className="text-white hover:underline underline-offset-8"
+          href="https://signerhq.com/"
+          target="_blank"
+        >
+          Signer
+        </a>{" "}
+        and{" "}
+        <a
+          className="text-white hover:underline underline-offset-8"
+          href="https://linkfolders.com/"
+          target="_blank"
+        >
+          Linkfolders
+        </a>
+        .
+      </p>
+      {/* <h2
+        className={
+          instrumentSerif.className + " text-4xl sm:text-5xl mt-24 mb-8"
+        }
+      >
+        My latest side project is{" "}
+        <span className="italic leading-tighter">Hotelfull</span>
+        <br />
+        where I build{" "}
+        <span className="italic leading-tighter">Direct Booking</span>
+        <br />
+        websites for <span className="italic leading-tighter">Hotels</span>
+      </h2> */}
       <h2
         className={
           instrumentSerif.className + " text-4xl sm:text-5xl mt-24 mb-8"
