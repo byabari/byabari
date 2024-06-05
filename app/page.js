@@ -122,8 +122,8 @@ export default function HomePage() {
         >
           Hotelfull
         </a>{" "}
-        z came naturally, being around people from the industry. Other side
-        projects I've worked on previously were{" "}
+        therefor came naturally. Other side projects I've worked on previously
+        are{" "}
         <a
           className="text-yellow-300 hover:underline underline-offset-4"
           href="https://signerhq.com/"
