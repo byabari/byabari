@@ -89,7 +89,7 @@ export default function HomePage() {
         {/* <br />
         about <span className="italic leading-tighter">Tangier</span> */}
       </h2>
-      <div className="flex gap-2 mb-9">
+      <div className="w-full flex justify-center sm:justify-start flex-wrap gap-2 mb-9">
         <Image src="/instagram-1.jpg" width={200} height={400} />
         <Image src="/instagram-2.jpg" width={200} height={400} />
         <Image src="/instagram-3.jpg" width={200} height={400} />
@@ -97,7 +97,15 @@ export default function HomePage() {
       <p
         className={splineSansMono.className + " text-[#cccccc] space-y-5 mb-6"}
       >
-        You can find me at @tangierbyabari.
+        You can find me at{" "}
+        <a
+          className="text-white hover:underline underline-offset-8"
+          href="https://www.instagram.com/tangierbyabari"
+          target="_blank"
+        >
+          @tangierbyabari
+        </a>
+        .
       </p>
 
       {/* <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
