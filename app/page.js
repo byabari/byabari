@@ -73,7 +73,7 @@ export default function HomePage() {
         </p> */}
       </div>
       <Image
-        className="mb-14"
+        className="mb-14 mx-auto sm:mx-0"
         src="/abari-about.jpg"
         width={400}
         height={400}
