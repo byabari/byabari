@@ -83,7 +83,7 @@ export default function HomePage() {
       <Resume />
       <h2
         className={
-          instrumentSerif.className + " text-4xl sm:text-5xl mt-24 mb-8"
+          instrumentSerif.className + " text-4xl sm:text-5xl mt-32 mb-8"
         }
       >
         My latest side project is{" "}
