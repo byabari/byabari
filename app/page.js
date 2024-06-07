@@ -62,7 +62,7 @@ export default function HomePage() {
           are{" "}
           <a
             className="text-yellow-300 hover:underline underline-offset-4"
-            href="https://hotelfull.com/"
+            href="https://practice.do/"
             target="_blank"
           >
             Practice
@@ -70,7 +70,7 @@ export default function HomePage() {
           and{" "}
           <a
             className="text-yellow-300 hover:underline underline-offset-4"
-            href="https://hotelfull.com/"
+            href="https://hubs.com/"
             target="_blank"
           >
             Hubs
@@ -105,7 +105,7 @@ export default function HomePage() {
         My latest side project is{" "}
         <span className="italic leading-tighter">Hotelfull</span>
         <br />
-        where I build websites{" "}
+        where I build websites for{" "}
         <span className="italic leading-tighter">Hotels</span>
       </h2>
       {/* <Card title="Hotelfull" logoImageSrc="/hotelfull-logo.jpg" /> */}
