@@ -170,7 +170,7 @@ export default function HomePage() {
         <Image src="/instagram-3.jpg" width={180} height={400} />
       </div>
       <p
-        className={splineSansMono.className + " text-[#d7d7d7] space-y-5 mb-6"}
+        className={splineSansMono.className + " text-[#edebeb] space-y-5 mb-6"}
       >
         You can find me at{" "}
         <a
