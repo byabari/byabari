@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
       <body
         className={
           inter.className +
-          " text-[#ffffff] bg-[#011FA4] min-h-screen flex flex-col items-center"
+          " text-[#ffffff] bg-[#548fe0] min-h-screen flex flex-col items-center"
         }
       >
         <div className="w-full max-w-[700px] p-4">
@@ -75,7 +75,7 @@ export default function RootLayout({ children }) {
                 </a>
               ))}
             </div>
-            <div className="text-xs font-light text-[#cccccc]">© 2024</div>
+            <div className="text-xs font-light text-[#faf6ea]">© 2024</div>
           </footer>
         </div>
       </body>
