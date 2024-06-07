@@ -53,7 +53,7 @@ export default function HomePage() {
         with an eye for <span className="italic leading-tighter">Design</span>
       </h2>
       <div
-        className={splineSansMono.className + " text-[#cccccc] space-y-5 mb-6"}
+        className={splineSansMono.className + " text-[#edebeb] space-y-5 mb-6"}
       >
         <p>
           I was born in Amsterdam, gew up between Morocco and Amsterdam, studied
@@ -170,7 +170,7 @@ export default function HomePage() {
         <Image src="/instagram-3.jpg" width={180} height={400} />
       </div>
       <p
-        className={splineSansMono.className + " text-[#cccccc] space-y-5 mb-6"}
+        className={splineSansMono.className + " text-[#d7d7d7] space-y-5 mb-6"}
       >
         You can find me at{" "}
         <a
