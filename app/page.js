@@ -110,7 +110,7 @@ export default function HomePage() {
       </h2>
       {/* <Card title="Hotelfull" logoImageSrc="/hotelfull-logo.jpg" /> */}
       <p
-        className={splineSansMono.className + " text-[#cccccc] space-y-5 mb-6"}
+        className={splineSansMono.className + " text-[#edebeb] space-y-5 mb-6"}
       >
         I've always been interested in the travel and hospitality space. My
         first job in the industry was at El Fenn Hotel in Marrakech at the age
