@@ -7,15 +7,15 @@ const instrumentSerif = Instrument_Serif({ subsets: ["latin"], weight: "400" });
 const splineSansMono = Spline_Sans_Mono({ subsets: ["latin"], weight: "400" });
 
 export const metadata = {
-  title: "Abari",
+  title: "Abari Abbassi",
   description:
-    "Hi there, I'm Abari Abbassi. I'm a Frontend Engineer with an eye for Design.",
+    "Hi there, I'm Abari. I'm a Frontend Engineer with an eye for Design.",
   openGraph: {
-    title: "Abari",
+    title: "Abari Abbassi",
     description:
-      "Hi there, I'm Abari Abbassi. I'm a Frontend Engineer with an eye for Design.",
+      "Hi there, I'm Abari. I'm a Frontend Engineer with an eye for Design.",
     url: "https://byabari.com",
-    siteName: "Abari",
+    siteName: "Abari Abbassi",
     images: [
       {
         url: "https://nextjs.org/og.png",
@@ -26,7 +26,7 @@ export const metadata = {
         url: "https://nextjs.org/og-alt.png",
         width: 1800,
         height: 1600,
-        alt: "Abari",
+        alt: "Abari Abbassi",
       },
     ],
     locale: "en_US",
