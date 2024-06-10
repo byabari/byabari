@@ -67,7 +67,11 @@ export default function RootLayout({ children }) {
                   <Image
                     src={link.src}
                     alt={`${link.text} logo`}
-                    className="invert"
+                    style={{
+                      filter:
+                        "invert(98%) sepia(85%) saturate(7192%) hue-rotate(321deg) brightness(109%) contrast(98%)",
+                    }}
+                    // className="invert"
                     width={12}
                     height={12}
                     priority
