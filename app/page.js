@@ -1,6 +1,5 @@
 import { Instrument_Serif, Spline_Sans_Mono } from "next/font/google";
 import Resume from "@/components/Resume";
-import Card from "@/components/Card";
 import Image from "next/image";
 
 const instrumentSerif = Instrument_Serif({ subsets: ["latin"], weight: "400" });
