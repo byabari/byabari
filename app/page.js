@@ -8,11 +8,11 @@ const splineSansMono = Spline_Sans_Mono({ subsets: ["latin"], weight: "400" });
 export const metadata = {
   title: "Abari Abbassi",
   description:
-    "Hi there, I'm Abari. I'm a Frontend Engineer with an eye for Design.",
+    "Hey, I'm Abari. I'm a Frontend Engineer with an eye for Design.",
   openGraph: {
     title: "Abari Abbassi",
     description:
-      "Hi there, I'm Abari. I'm a Frontend Engineer with an eye for Design.",
+      "Hey, I'm Abari. I'm a Frontend Engineer with an eye for Design.",
     url: "https://byabari.com",
     siteName: "Abari Abbassi",
     images: [
