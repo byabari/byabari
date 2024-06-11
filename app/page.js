@@ -47,15 +47,15 @@ export default function HomePage() {
   return (
     <div className="flex flex-col justify-center ">
       <div className="flex items-center mt-12 sm:mt-24 mb-12">
-        <h1 className={instrumentSerif.className + " text-3xl sm:text-4xl"}>
+        <h2 className={instrumentSerif.className + " text-3xl sm:text-4xl"}>
           Hey, I'm <span className="italic leading-tighter">Abari</span>
-        </h1>
+        </h2>
       </div>
-      <h2 className={instrumentSerif.className + " text-4xl sm:text-5xl mb-14"}>
+      <h1 className={instrumentSerif.className + " text-4xl sm:text-5xl mb-14"}>
         I'm a <span className="italic leading-tighter">Frontend Engineer</span>
         <br />
         with an eye for <span className="italic leading-tighter">Design</span>
-      </h2>
+      </h1>
       <div
         className={splineSansMono.className + " text-[#edebeb] space-y-5 mb-6"}
       >
@@ -68,7 +68,7 @@ export default function HomePage() {
         </p>
       </div>
       <Image
-        className="mb-14 sm:mx-0"
+        className="mb-16 sm:mx-0"
         src="/abari-about.jpg"
         width={400}
         height={400}
@@ -76,7 +76,7 @@ export default function HomePage() {
       <Resume />
       <h2
         className={
-          instrumentSerif.className + " text-3xl sm:text-4xl mt-32 mb-8"
+          instrumentSerif.className + " text-3xl sm:text-4xl mt-24 mb-8"
         }
       >
         My latest side project is{" "}
@@ -86,7 +86,7 @@ export default function HomePage() {
         <span className="italic leading-tighter">Hotels</span>
       </h2>
       <p
-        className={splineSansMono.className + " text-[#edebeb] space-y-5 mb-6"}
+        className={splineSansMono.className + " text-[#edebeb] space-y-5 mb-24"}
       >
         I've always been interested in the travel and hospitality space. My
         first job in the industry was at El Fenn Hotel in Marrakech at the age
@@ -96,15 +96,11 @@ export default function HomePage() {
         <Link href="https://signerhq.com/">Signer</Link> and{" "}
         <Link href="https://linkfolders.com/">Linkfolders</Link>.
       </p>
-      <h2
-        className={
-          instrumentSerif.className + " text-3xl sm:text-4xl mt-24 mb-8"
-        }
-      >
+      <h2 className={instrumentSerif.className + " text-3xl sm:text-4xl mb-8"}>
         I also post stuff on{" "}
         <span className="italic leading-tighter">Instagram</span>
       </h2>
-      <div className="flex flex-wrap gap-2 mb-9">
+      <div className="flex flex-wrap gap-2 mb-7">
         <Image src="/instagram-1.jpg" width={180} height={400} />
         <Image src="/instagram-2.jpg" width={180} height={400} />
         <Image src="/instagram-3.jpg" width={180} height={400} />
