@@ -56,19 +56,18 @@ export default function HomePage() {
         <br />
         with an eye for <span className="italic leading-tighter">Design</span>
       </h1>
-      <div
+      <p
         className={splineSansMono.className + " text-[#edebeb] space-y-5 mb-6"}
       >
-        <p>
-          I was born in Amsterdam, gew up between Morocco and Amsterdam, studied
-          Computer Science in Paris, and did an exchange semester in Japan. My
-          web framework of choice is React. Among the companies I've worked for
-          are <Link href="https://practice.do/">Practice</Link> and{" "}
-          <Link href="https://hubs.com/">Hubs</Link>.
-        </p>
-      </div>
+        I was born in Amsterdam, gew up between Morocco and Amsterdam, studied
+        Computer Science in Paris, and did an exchange semester in Japan. I'm
+        currently based in Tangier, Morocco, and work with companies from around
+        the world. My web framework of choice is React. Among the companies I've
+        worked for are <Link href="https://practice.do/">Practice</Link> and{" "}
+        <Link href="https://hubs.com/">Hubs</Link>.
+      </p>
       <Image
-        className="mb-16 sm:mx-0"
+        className="mb-14 sm:mx-0"
         src="/abari-about.jpg"
         width={400}
         height={400}
@@ -76,7 +75,7 @@ export default function HomePage() {
       <Resume />
       <h2
         className={
-          instrumentSerif.className + " text-3xl sm:text-4xl mt-24 mb-8"
+          instrumentSerif.className + " text-3xl sm:text-4xl mt-24 mb-7"
         }
       >
         My latest side project is{" "}
@@ -96,7 +95,7 @@ export default function HomePage() {
         <Link href="https://signerhq.com/">Signer</Link> and{" "}
         <Link href="https://linkfolders.com/">Linkfolders</Link>.
       </p>
-      <h2 className={instrumentSerif.className + " text-3xl sm:text-4xl mb-8"}>
+      <h2 className={instrumentSerif.className + " text-3xl sm:text-4xl mb-7"}>
         I also post stuff on{" "}
         <span className="italic leading-tighter">Instagram</span>
       </h2>
@@ -106,7 +105,7 @@ export default function HomePage() {
         <Image src="/instagram-3.jpg" width={180} height={400} />
       </div>
       <p
-        className={splineSansMono.className + " text-[#edebeb] space-y-5 mb-6"}
+        className={splineSansMono.className + " text-[#edebeb] space-y-5 mb-5"}
       >
         You can find me at{" "}
         <Link href="https://www.instagram.com/tangierbyabari/">

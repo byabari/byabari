@@ -23,7 +23,7 @@ const Experience = ({
 
 export default function Resume() {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-1 gap-x-3 gap-y-16">
+    <div className="grid grid-cols-1 sm:grid-cols-1 gap-x-3 gap-y-8">
       <Experience
         logoImageSrc="/practice-logo.jpg"
         companyName="Practice"
