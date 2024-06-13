@@ -14,7 +14,7 @@ export const metadata = {
     description:
       "Hey, I'm Abari. I'm a Frontend Engineer with an eye for Design.",
     url: "https://byabari.com",
-    siteName: "Abari Abbassi",
+    siteName: "Abari",
     images: [
       {
         url: "https://nextjs.org/og.png",
@@ -67,7 +67,7 @@ export default function HomePage() {
         <Link href="https://hubs.com/">Hubs</Link>.
       </p>
       <Image
-        className="mb-14 sm:mx-0"
+        className="mb-16 sm:mx-0"
         src="/abari-about.jpg"
         width={400}
         height={400}
