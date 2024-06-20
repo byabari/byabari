@@ -96,7 +96,7 @@ export default function HomePage() {
         <Link href="https://linkfolders.com/">Linkfolders</Link>.
       </p>
       <h2 className={instrumentSerif.className + " text-3xl sm:text-4xl mb-7"}>
-        I also post stuff on{" "}
+        I also post travel content on{" "}
         <span className="italic leading-tighter">Instagram</span>
       </h2>
       <div className="flex flex-wrap gap-2 mb-7">
