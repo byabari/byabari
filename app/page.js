@@ -70,6 +70,7 @@ export default function HomePage() {
         src="/abari-about.jpg"
         width={400}
         height={400}
+        priority
       />
       <Resume />
       <h2
