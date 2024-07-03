@@ -52,12 +52,9 @@ export default function HomePage() {
         </h2>
       </div>
       <h1 className={instrumentSerif.className + " text-4xl sm:text-5xl mb-14"}>
-        I'm a Product-minded
+        I'm a <span className="italic leading-tighter">Frontend Engineer</span>
         <br />
-        <span className="italic leading-tighter">Full Stack Engineer</span>
-        {/* I'm a <span className="italic leading-tighter">Frontend Engineer</span>
-        <br />
-        with an eye for <span className="italic leading-tighter">Design</span> */}
+        with an eye for <span className="italic leading-tighter">Design</span>
       </h1>
       <p
         className={splineSansMono.className + " text-[#edebeb] space-y-5 mb-6"}
