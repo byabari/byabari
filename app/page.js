@@ -59,11 +59,11 @@ export default function HomePage() {
       <p
         className={splineSansMono.className + " text-[#edebeb] space-y-5 mb-6"}
       >
-        I was born in Amsterdam, gew up between Morocco and Amsterdam, studied
-        Computer Science in Paris, and did an exchange semester in Japan. I'm
-        currently based in Tangier, Morocco, and work with companies from around
-        the world. My web framework of choice is React. Among the companies I've
-        worked for are <Link href="https://practice.do/">Practice</Link> and{" "}
+        I was born in Amsterdam, gew up in Tangier, Morocco, studied Computer
+        Science in Paris, and did an exchange semester in Japan. I'm currently
+        based in Tangier, and work with companies from around the world. My web
+        framework of choice is React. Among the companies I've worked for are{" "}
+        <Link href="https://practice.do/">Practice</Link> and{" "}
         <Link href="https://hubs.com/">Hubs</Link>.
       </p>
       <Image
