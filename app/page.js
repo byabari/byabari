@@ -1,5 +1,7 @@
 import { Instrument_Serif, Spline_Sans_Mono } from "next/font/google";
 import Resume from "@/components/Resume";
+import Card from "@/components/Card";
+import SideProject from "@/components/SideProject";
 import Image from "next/image";
 
 const instrumentSerif = Instrument_Serif({ subsets: ["latin"], weight: "400" });
@@ -46,7 +48,7 @@ const Link = ({ href, children }) => (
 export default function HomePage() {
   return (
     <div className="flex flex-col justify-center ">
-      <div className="flex items-center mt-12 sm:mt-24 mb-12">
+      <div className="flex items-center mt-20 sm:mt-28 mb-12">
         <h2 className={instrumentSerif.className + " text-3xl sm:text-4xl"}>
           Hey, I'm <span className="italic leading-tighter">Abari</span>
         </h2>
@@ -59,9 +61,8 @@ export default function HomePage() {
       <p
         className={splineSansMono.className + " text-[#edebeb] space-y-5 mb-6"}
       >
-        I was born in Amsterdam, gew up in Tangier, Morocco, studied Computer
-        Science in Paris, and did an exchange semester in Japan. I'm currently
-        based in Tangier, and work with companies from around the world. My web
+        I was born in Amsterdam, gew up between Morocco and Amsterdam, studied
+        Computer Science in Paris, and did an exchange semester in Japan. My web
         framework of choice is React. Among the companies I've worked for are{" "}
         <Link href="https://practice.do/">Practice</Link> and{" "}
         <Link href="https://hubs.com/">Hubs</Link>.
@@ -79,23 +80,32 @@ export default function HomePage() {
           instrumentSerif.className + " text-3xl sm:text-4xl mt-24 mb-7"
         }
       >
-        My latest side project is{" "}
-        <span className="italic leading-tighter">Hotelfull</span>
-        <br />
-        where I build websites for{" "}
-        <span className="italic leading-tighter">Hotels</span>
+        Some of my previous{" "}
+        <span className="italic leading-tighter">Side Projects</span>
       </h2>
-      <p
-        className={splineSansMono.className + " text-[#edebeb] space-y-5 mb-24"}
-      >
-        I've always been interested in the travel and hospitality space. My
-        first job in the industry was at El Fenn Hotel in Marrakech at the age
-        of 18. At 22, I created my first ever Airbnb listing. The idea for{" "}
-        <Link href="https://hotelfull.com/">Hotelfull</Link> therefor came
-        naturally. Other side projects I've worked on previously are{" "}
-        <Link href="https://signerhq.com/">Signer</Link> and{" "}
-        <Link href="https://linkfolders.com/">Linkfolders</Link>.
-      </p>
+      <div className="flex gap-4 mb-20">
+        <SideProject
+          logoImageSrc="/linkfolders-logo.jpg"
+          title="Linkfolders"
+          href="https://linkfolders.com"
+          imageSrc="/linkfolders.jpg"
+          description=""
+        />
+        <SideProject
+          logoImageSrc="/signerhq-logo.jpg"
+          title="Signer HQ"
+          href="https://signerhq.com"
+          imageSrc="/signerhq.jpg"
+          description=""
+        />
+        <SideProject
+          logoImageSrc="/hotelfull-logo.jpg"
+          title="Hotelfull"
+          href="https://hotelfull.com/"
+          imageSrc="/hotelfull.jpg"
+          description=""
+        />
+      </div>
       <h2 className={instrumentSerif.className + " text-3xl sm:text-4xl mb-7"}>
         I also post stuff on{" "}
         <span className="italic leading-tighter">Instagram</span>
