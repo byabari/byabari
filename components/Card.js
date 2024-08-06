@@ -20,7 +20,7 @@ export default function Component(props) {
       </div>
       {props.description && (
         <div className="pt-0 pb-5">
-          <p className={splineSansMono.className + " text-[#edebeb]"}>
+          <p className={splineSansMono.className + " text-[#3A3A3A]"}>
             {props.description}
           </p>
         </div>

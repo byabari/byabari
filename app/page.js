@@ -37,7 +37,7 @@ export const metadata = {
 
 const Link = ({ href, children }) => (
   <a
-    className="text-yellow-300 hover:text-yellow-200 focus:text-yellow-500 hover:underline underline-offset-4"
+    className="text-blue-600 hover:text-blue-300 focus:text-blue-400 hover:underline underline-offset-4"
     href={href}
     target="_blank"
   >
@@ -59,7 +59,7 @@ export default function HomePage() {
         with an eye for <span className="italic leading-tighter">Design</span>
       </h1>
       <p
-        className={splineSansMono.className + " text-[#edebeb] space-y-5 mb-6"}
+        className={splineSansMono.className + " text-[#3A3A3A] space-y-5 mb-6"}
       >
         I was born in Amsterdam, gew up between Morocco and Amsterdam, studied
         Computer Science in Paris, and did an exchange semester in Japan. My web
@@ -116,7 +116,7 @@ export default function HomePage() {
         <Image src="/instagram-3.jpg" width={180} height={400} />
       </div>
       <p
-        className={splineSansMono.className + " text-[#edebeb] space-y-5 mb-5"}
+        className={splineSansMono.className + " text-[#3A3A3A] space-y-5 mb-5"}
       >
         You can find me at{" "}
         <Link href="https://www.instagram.com/tangierbyabari/">
