@@ -8,38 +8,15 @@ export default function Component(props) {
   return (
     <NextLink href={props.href} target="_blank">
       <div className="bg-blue-300 hover:bg-blue-400 focus:bg-gray-100 rounded-lg p-1">
-        <div className={"rounded-2xl " + props.className}>
-          <div className="flex items-center gap-2 sm:first-letter:gap-x-3.5 pl-1 mt-1.5 mb-2.5">
-            <Image
-              className="rounded"
-              src={props.logoImageSrc}
-              alt={props.title + " logo"}
-              width={21}
-              height={32}
-            />
-            <h2 className="text-sm font-medium truncate">{props.title}</h2>
-          </div>
-          {/* {props.description && (
-        <div className="pt-0 pb-5">
-          <p
-            className={
-              splineSansMono.className + " text-xs font-light text-[#3A3A3A]"
-            }
-          >
-            {props.description}
-          </p>
-        </div>
-      )} */}
-          {props.imageSrc && (
-            <Image
-              className="rounded-lg"
-              src={props.imageSrc}
-              alt={props.title}
-              width={210}
-              height={32}
-            />
-          )}
-        </div>
+        {props.imageSrc && (
+          <Image
+            className="rounded-lg"
+            src={props.imageSrc}
+            alt={props.title}
+            width={210}
+            height={32}
+          />
+        )}
       </div>
     </NextLink>
   );
