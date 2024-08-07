@@ -37,7 +37,7 @@ export const metadata = {
 
 const Link = ({ href, children }) => (
   <a
-    className="text-blue-600 hover:text-blue-400 focus:text-blue-400 hover:underline underline-offset-4"
+    className="text-green-600 hover:text-blue-400 focus:text-blue-400 hover:underline underline-offset-4"
     href={href}
     target="_blank"
   >
@@ -48,16 +48,16 @@ const Link = ({ href, children }) => (
 export default function HomePage() {
   return (
     <div className="flex flex-col justify-center ">
-      <div className="flex items-center mt-20 sm:mt-28 mb-12">
-        <h2 className={instrumentSerif.className + " text-3xl sm:text-4xl"}>
+      <div className="flex items-center mt-16 sm:mt-28 mb-12">
+        <h1 className={instrumentSerif.className + " text-3xl sm:text-4xl"}>
           Hey, I'm <span className="italic leading-tighter">Abari</span>
-        </h2>
+        </h1>
       </div>
-      <h1 className={instrumentSerif.className + " text-4xl sm:text-5xl mb-14"}>
+      <h2 className={instrumentSerif.className + " text-4xl sm:text-5xl mb-14"}>
         I'm a <span className="italic leading-tighter">Frontend Engineer</span>
         <br />
         with an eye for <span className="italic leading-tighter">Design</span>
-      </h1>
+      </h2>
       <p
         className={splineSansMono.className + " text-[#3A3A3A] space-y-5 mb-6"}
       >
