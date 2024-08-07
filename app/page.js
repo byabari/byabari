@@ -37,7 +37,7 @@ export const metadata = {
 
 const Link = ({ href, children }) => (
   <a
-    className="text-blue-600 hover:text-blue-300 focus:text-blue-400 hover:underline underline-offset-4"
+    className="text-blue-600 hover:text-blue-400 focus:text-blue-400 hover:underline underline-offset-4"
     href={href}
     target="_blank"
   >
@@ -77,7 +77,7 @@ export default function HomePage() {
       <Resume />
       <h2
         className={
-          instrumentSerif.className + " text-3xl sm:text-4xl mt-24 mb-7"
+          instrumentSerif.className + " text-3xl sm:text-4xl mt-24 mb-5"
         }
       >
         Some of my previous{" "}
@@ -89,21 +89,21 @@ export default function HomePage() {
           title="Linkfolders"
           href="https://linkfolders.com"
           imageSrc="/linkfolders.jpg"
-          description=""
+          description="An online bookmark manager. It was the first ever SaaS product I have built from scratch."
         />
         <SideProject
           logoImageSrc="/signerhq-logo.jpg"
           title="Signer HQ"
           href="https://signerhq.com"
           imageSrc="/signerhq.jpg"
-          description=""
+          description="An e-signature SaaS product that relies on SEO to acquire new customers."
         />
         <SideProject
           logoImageSrc="/hotelfull-logo.jpg"
           title="Hotelfull"
           href="https://hotelfull.com/"
           imageSrc="/hotelfull.jpg"
-          description=""
+          description="A web development agency that builds direct booking websites for hotels and vacation rentals."
         />
       </div>
       <h2 className={instrumentSerif.className + " text-3xl sm:text-4xl mb-7"}>
