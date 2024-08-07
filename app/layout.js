@@ -67,7 +67,7 @@ export default function RootLayout({ children }) {
                   <Image
                     src={link.src}
                     alt={`${link.text} logo`}
-                    className="invert"
+                    className=""
                     width={12}
                     height={12}
                     priority
@@ -75,7 +75,7 @@ export default function RootLayout({ children }) {
                 </a>
               ))}
             </div>
-            <div className="text-xs font-light text-[#faf6ea]">© 2024</div>
+            <div className="text-xs font-light">© 2024</div>
           </footer>
         </div>
       </body>
