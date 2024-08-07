@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
       <body
         className={
           inter.className +
-          " text-[#151515] bg-[#b1c9ea] min-h-screen flex flex-col items-center"
+          " text-[#151515] bg-[#A4C3EE] min-h-screen flex flex-col items-center"
         }
       >
         <div className="w-full max-w-[700px] p-4">
