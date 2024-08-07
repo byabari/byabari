@@ -77,13 +77,13 @@ export default function HomePage() {
       <Resume />
       <h2
         className={
-          instrumentSerif.className + " text-3xl sm:text-4xl mt-24 mb-5"
+          instrumentSerif.className + " text-3xl sm:text-4xl mt-24 mb-6"
         }
       >
         Some of my previous{" "}
         <span className="italic leading-tighter">Side Projects</span>
       </h2>
-      <div className="flex gap-4 mb-20">
+      <div className="flex gap-3 mb-20">
         <SideProject
           logoImageSrc="/linkfolders-logo.jpg"
           title="Linkfolders"
