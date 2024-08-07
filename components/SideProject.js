@@ -17,7 +17,7 @@ export default function Component(props) {
               width={21}
               height={32}
             />
-            <h2 className="text-sm font-medium">{props.title}</h2>
+            <h2 className="text-sm font-medium truncate">{props.title}</h2>
           </div>
           {/* {props.description && (
         <div className="pt-0 pb-5">

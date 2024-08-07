@@ -37,7 +37,7 @@ export const metadata = {
 
 const Link = ({ href, children }) => (
   <a
-    className="text-blue-500 hover:text-blue-500 focus:text-blue-400 hover:underline underline-offset-4"
+    className="text-blue-500 hover:text-blue-600 focus:text-blue-300 hover:underline underline-offset-4"
     href={href}
     target="_blank"
   >
@@ -48,7 +48,7 @@ const Link = ({ href, children }) => (
 export default function HomePage() {
   return (
     <div className="flex flex-col justify-center ">
-      <div className="flex items-center mt-16 sm:mt-28 mb-12">
+      <div className="flex items-center mt-14 sm:mt-28 mb-12">
         <h1 className={instrumentSerif.className + " text-3xl sm:text-4xl"}>
           Hey, I'm <span className="italic leading-tighter">Abari</span>
         </h1>
