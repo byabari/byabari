@@ -7,11 +7,11 @@ const splineSansMono = Spline_Sans_Mono({ subsets: ["latin"], weight: "400" });
 export default function Component(props) {
   return (
     <NextLink href={props.href} target="_blank">
-      <div className="border bg-gray-200 hover:bg-gray-300 focus:bg-gray-400 rounded-lg p-1">
+      <div className="bg-blue-300 hover:bg-blue-400 focus:bg-gray-100 rounded-lg p-1">
         <div className={"rounded-2xl " + props.className}>
-          <div className="flex items-center gap-x-3.5 pl-1 mt-1.5 mb-2.5">
+          <div className="flex items-center gap-2 sm:first-letter:gap-x-3.5 pl-1 mt-1.5 mb-2.5">
             <Image
-              className="rounded -mr-1.5"
+              className="rounded"
               src={props.logoImageSrc}
               alt={props.title + " logo"}
               width={21}
