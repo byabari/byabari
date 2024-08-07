@@ -37,7 +37,7 @@ export const metadata = {
 
 const Link = ({ href, children }) => (
   <a
-    className="text-blue-500 hover:text-blue-600 focus:text-blue-300 hover:underline underline-offset-4"
+    className="text-green-700 hover:text-blue-600 focus:text-blue-300 hover:underline underline-offset-4"
     href={href}
     target="_blank"
   >

@@ -28,8 +28,8 @@ export default function RootLayout({ children }) {
           href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
-        <meta name="msapplication-TileColor" content="#F1F1F1" />
-        <meta name="theme-color" content="#F1F1F1" />
+        <meta name="msapplication-TileColor" content="#bfdbfd" />
+        <meta name="theme-color" content="#bfdbfd" />
       </head>
       <body
         className={
